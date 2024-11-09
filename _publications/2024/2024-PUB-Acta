@@ -13,7 +13,7 @@ abstract: Although pure data-driven models demonstrate strong performance within
         the observed geodata is limited. Moreover, these models often disregard valuable geotechnical domain knowledge. To address these limitations, 
         a novel physics-informed neural network (PINN) is developed for both forward and inverse analyses of two-dimensional soil consolidations when 
         only limited measurements are available.
-cover:          /assets/images/covers/APE.jpg
+cover:          /assets/images/covers/2024-Acta.png
 authors:
   - Yu Wang
   - Chao Shi#
