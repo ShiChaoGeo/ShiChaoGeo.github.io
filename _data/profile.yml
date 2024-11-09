@@ -35,17 +35,31 @@ portrait_url: /assets/images/photos/cropped.jpg
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+#- name: Massachusetts Institute of Technology
+#  logo: /assets/images/badges/MIT_Social_circle.png
+#  position: >- 
+#    Department of Electrical Engineering and Computer Science <br/>
+#    Ph.D. Student
+#  date: Sep. 2024 - present
 
+
+- name: City University of Hong Kong
+  logo: /assets/images/photos/CityU.jpg
+  position: Ph.D. in Civil Engineering 
+  date: Sep. 2019 - Feb. 2022
+- name: City University of Hong Kong
+  logo: /assets/images/photos/CityU.jpg
+  position: MSc. in Financial Mathematics and Statistics (Distinction)
+  date: Sep. 2018 - Jun. 2019
+- name: Hong Kong University of Science and Technology
+  logo: /assets/images/photos/HKUST.jpg
+  position: Mphil. in Civil Engineering
+  date: Sep. 2012 - Jan. 2015
+- name: Jilin University
+  logo: /assets/images/photos/JLU.jpg
+  position: BEng. in Civil Engineering (Ranking: 1/220)
+  date: Sep. 2008 - Jun. 2012
+  
 # experience:
 # - name: Peking University
 #   logo: /assets/images/badges/PKU_red.png
