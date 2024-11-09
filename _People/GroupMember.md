@@ -5,7 +5,7 @@ selected:       true
 #pub:            "Géotechnique"
 pub_date:       "2024"
 #abstract: In 
-cover:          /assets/images/covers/2023-Geotechnique.png
+cover:          /assets/images/People/Boy.png
 #authors:
 #- Chao Shi
 #- Yu Wang#
