@@ -5,17 +5,15 @@ selected:       false
 pub:            "Computers and Geotechnics"
 pub_date:       "2024"
 abstract:       Although there has been extensive research on bored energy piles, the understanding about the thermomechanical performance of 
-driven energy piles remains limited. In this study, a unified numerical modeling campaign is proposed to investigate the thermomechanical behaviors
-of driven energy piles in sand under cyclic thermal loading conditions. The pile-driving process is simulated using the Coupled Eulerian-Lagrangian 
-(CEL) technique, and the obtained post-installation results are mapped to an axisymmetric finite element model to analyze the thermomechanical behavior
-of driven energy piles.
-
+                driven energy piles remains limited. In this study, a unified numerical modeling campaign is proposed to investigate the thermomechanical behaviors
+                of driven energy piles in sand under cyclic thermal loading conditions. The pile-driving process is simulated using the Coupled Eulerian-Lagrangian 
+                (CEL) technique, and the obtained post-installation results are mapped to an axisymmetric finite element model to analyze the thermomechanical behavior
+                of driven energy piles.
 cover:          /assets/images/covers/2024-CG.png
 authors:
   - Bo Sun
   - Chao Shi#
   - Anthony Leung
-
 links:
   PDF: https://www.sciencedirect.com/science/article/abs/pii/S0266352X24005214
   #Code: https://github.com
