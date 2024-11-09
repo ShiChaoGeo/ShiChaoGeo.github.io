@@ -11,9 +11,9 @@ pub_date:       "2024"
 abstract: A domain-specific training image database is first established using generative adversarial networks (GAN) that enable the generation of arbitrary sized image samples from a single training image. Subsequently, multiple qualified image samples that are compatible with site-specific data are adaptively selected and utilized for the ensemble learning of geological cross-sections. 
 cover:          /assets/images/covers/2024_TUST.png
 authors:
-  - Chao Shi*
+  - Chao Shi#
   - Yu Wang
-  - Haoqing Yang*
+  - Haoqing Yang
 links:
   PDF: https://www.sciencedirect.com/science/article/abs/pii/S0886779824003900
   #Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
