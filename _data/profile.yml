@@ -22,13 +22,14 @@ orcid: 0000-0001-5051-4710
 short_bio_text_justify: false
 short_bio: >- 
   <p>
-    #A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
     The research team aims to (1) develop efficient machine-learning algorithms to bridge the gap between sparse data and smart city applications, and (2) enhance our fundamental understanding of the thermodynamics of energy systems and the thermomechanical
     interactions with various geotechnical infrastructure. The ultimate goal is to apply these developed technologies to improve the efficiency and resilience of urban and offshore infrastructure, including reclamation, excavation, piling, slope 
     stability, and ground improvement.
   </p>
-
-
+  <p>
+    Our interests include soil mechanics, machine learning of geo-data, centrifuge modelling and numerical analysis of soil-structure interaction, and geo-energy system. The recruitment of PhD students, Research Assistants, and Postdocs is ongoing. 
+    Interested candidates are always welcome to contact Dr. Shi.
+  </p>
 portrait_url: /assets/images/photos/cropped.jpg
 #portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
