@@ -11,8 +11,7 @@ cover:          /assets/images/People/Girl.png
 #- Yu Wang#
 #links:
 #  PDF: https://www.icevirtuallibrary.com/doi/abs/10.1680/jgeot.22.00016
----
----
+
 title:          "Hanyue Li (BEng, HIT)"
 date:           2024-08-16 00:01:00 +0800
 selected:       true
