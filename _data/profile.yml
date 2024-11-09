@@ -41,7 +41,10 @@ education:
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
   date: Sep. 2024 - present
-
+- name: Jilin University
+  logo: /assets/images/photos/JLU.jpg
+  position: BEng. in Civil Engineering (Ranking: 1/220)
+  date: Sep. 2008 - Jun. 2012
 
 #- name: City University of Hong Kong
 #  logo: /assets/images/photos/CityU.jpg
