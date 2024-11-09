@@ -8,7 +8,7 @@ abstract:      In this study, a non-parametric and continuous variable-based spa
                 is proposed for subsurface stratigraphic modelling. The proposed method transforms sparse categorical borehole data from a low-dimensional space into continuous 
                 variables in a high-dimensional space, enabling a comprehensive representation of more implicit characteristics of intricate geological patterns..
 
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/2025-CGJ.png
 authors:
   - Zehang Qian
   - Chao Shi*
