@@ -14,7 +14,7 @@ authors:
   - Yuanzhong Yan
   - Chao Shi
   - Gongsheng Huang
-  - Yu Wang
+  - Yu Wang#
 links:
   PDF: https://www.sciencedirect.com/science/article/abs/pii/S1359431124023810
   #Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
