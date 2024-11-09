@@ -35,8 +35,8 @@ portrait_url: /assets/images/photos/cropped.jpg
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: City University of Hong Kong
+  logo: /assets/images/badges/CityU.jpg
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
