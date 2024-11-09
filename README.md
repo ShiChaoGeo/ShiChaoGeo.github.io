@@ -64,3 +64,5 @@ If you run into **any** issues while using this template, or have suggestions fo
 
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fshichaogeo.github.io%2F&label=VISITORs&countColor=%23263759)
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fwww.visitorbadge.io%2F&label=NTUCount&countColor=%23263759)
