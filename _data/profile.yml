@@ -1,11 +1,11 @@
-primary_name: "Your Name"
+primary_name: "SHI Chao (史超)"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "SHI Chao"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/photos/NTU.png  # Logo is optional
+  name: Assistant Professor, Nanyang Technological University
+- name: PhD, MICE, CEng, RGE(PRC)
 
 
 email: "your@email.com"
