@@ -2,8 +2,7 @@
 layout: default
 title : People
 navbar_title: People
-body_attr: >-
-  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+
 ---
 
 {% assign pubs_by_year = site.People | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
