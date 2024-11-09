@@ -10,7 +10,7 @@ abstract: In this study, a unified framework, capable of simultaneously modellin
 cover:          /assets/images/covers/2023-Geotechnique.png
 authors:
 - Chao Shi
-- Yu Wang#
+- Yu Wang
 links:
   PDF: https://www.icevirtuallibrary.com/doi/abs/10.1680/jgeot.22.00016
 ---
