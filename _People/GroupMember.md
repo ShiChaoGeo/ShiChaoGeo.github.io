@@ -1,28 +1,65 @@
-![Group Photo](images/group-photo.jpg)
-
-# Our Team
-
-Welcome to the team page! Here you can learn more about each member of our group.
-
+---
+layout: page
+title: projects
+permalink: /projects/
+description: A growing collection of your cool projects.
+nav: true
+nav_order: 3
+display_categories: [work, fun]
+horizontal: false
 ---
 
-## Meet the Team
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-| Member | Role | Bio |
-|--------|------|-----|
-| ![Member 1](images/member1.jpg) | **Member 1** | *Role: Team Lead* <br> Expertise in leading and coordinating the team, project management, and strategic planning. |
-| ![Member 2](images/member2.jpg) | **Member 2** | *Role: Developer* <br> Skilled in front-end and back-end development, coding, and debugging. |
-| ![Member 3](images/member3.jpg) | **Member 3** | *Role: Designer* <br> Focuses on UI/UX design, visual aesthetics, and user-centered design. |
-| ![Member 4](images/member4.jpg) | **Member 4** | *Role: Data Scientist* <br> Experienced in data analysis, machine learning, and data visualization. |
-| ![Member 5](images/member5.jpg) | **Member 5** | *Role: Researcher* <br> Specializes in literature review, data collection, and reporting findings. |
+{% else %}
 
----
+<!-- Display projects without categories -->
 
-## Contact Us
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
-For inquiries, please reach out to us at [team@example.com](mailto:team@example.com).
+  <!-- Generate cards for each project -->
 
----
+{% if page.horizontal %}
 
-© 2024 Our Team. All rights reserved.
-
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
