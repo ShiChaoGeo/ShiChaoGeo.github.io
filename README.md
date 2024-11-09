@@ -63,4 +63,4 @@ If you run into **any** issues while using this template, or have suggestions fo
 3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
 
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+![](https://api.visitorbadge.io/api/VisitorHit?user=estruyf&repo=github-visitors-badge&countColor=%237B1E7A)
