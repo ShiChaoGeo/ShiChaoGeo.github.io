@@ -9,7 +9,7 @@ pub:            "Applied Thermal Engineering"
 pub_date:       "2024"
 
 abstract: To properly evaluate the long-term COP of GSHP systems in cooling-dominated areas, a dynamically coupled simulation approach is proposed in this study. The proposed method integrates building thermal loads with ground heat transfer under groundwater seepage flow, within a unified framework.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/APE.jpg
 authors:
   - Yuanzhong Yan
   - Chao Shi
