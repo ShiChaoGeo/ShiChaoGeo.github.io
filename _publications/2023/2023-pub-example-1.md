@@ -1,17 +1,16 @@
 ---
-title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
-date:           2023-01-05 00:01:00 +0800
+title:          "Data-driven spatio-temporal analysis of consolidation for rapid reclamation"
+date:           2023-01-16 00:01:00 +0800
 selected:       true
-pub:            "Nature Communications"
+pub:            "Géotechnique"
 pub_date:       "2023"
-abstract: >-
-  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
+abstract: In this study, a unified framework, capable of simultaneously modelling stratigraphic variation and spatial variability of soil properties through 
+          machine learning of limited site investigation data, is combined with the finite-element method and Monte Carlo simulation for spatio-temporal 
+          consolidation analysis of reclaimed lands. 
 cover:          /assets/images/covers/cover1.jpg
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+- Chao Shi
+- Yu Wang#
 links:
-  Paper: https://www.cell.com
+  PDF: https://www.icevirtuallibrary.com/doi/abs/10.1680/jgeot.22.00016
 ---
