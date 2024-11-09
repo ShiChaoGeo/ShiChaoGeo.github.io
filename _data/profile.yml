@@ -48,7 +48,7 @@ education:
   position: M.Phil. in Civil Engineering
   date: Sep. 2012 - Jan. 2015
 - name: Jilin University
-  logo: /assets/images/badges/JLU.jpg
+  #logo: /assets/images/badges/JLU.jpg
   position: B.Eng. in Civil Engineering (Ranking: 1/220)
   date: Sep. 2008 - Jun. 2012
 #- name: City University of Hong Kong
