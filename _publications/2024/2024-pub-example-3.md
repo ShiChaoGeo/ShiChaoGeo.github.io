@@ -15,7 +15,7 @@ authors:
   - Yu Wang
   - Haoqing Yang
 links:
-  PDF: https://www.sciencedirect.com/science/article/abs/pii/S0886779824003900
+  Link: https://www.sciencedirect.com/science/article/abs/pii/S0886779824003900
   #Demo: https://www.sciencedirect.com/science/article/abs/pii/S0886779824003900
   #Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
