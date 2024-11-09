@@ -1,16 +1,16 @@
-primary_name: "Your Name"
+primary_name: "SHI Chao"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "SHI Chao (史超)"
 
 positions:
 - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+  name: Assistant Professor, Nanyang Technological University
+- name: PhD, MICE, CEng, RGE(PRC)
 
 
-email: "your@email.com"
+email: "chao.shi@ntu.edu.sg"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+gscholar: IYLw8HcAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: your_github_id
 twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
