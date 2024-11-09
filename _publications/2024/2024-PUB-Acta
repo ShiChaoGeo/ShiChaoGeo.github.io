@@ -1,1 +1,26 @@
+---
+title:          "Data-driven forward and inverse analysis of two-dimensional soil consolidation using physics-informed neural network"
+date:           2024-05-23 00:01:00 +0800
+selected:       true
+pub:            "Acta Geotechnica"
+# pub_pre:        "Submitted to "
+# pub_post:       'Under review.'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_date:       "2024"
+
+abstract: Although pure data-driven models demonstrate strong performance within their training domain, i.e., in-sample prediction, they 
+          lack interpretability and might have poor generalization outside the training domain, i.e., out-of-sample prediction, particularly when 
+        the observed geodata is limited. Moreover, these models often disregard valuable geotechnical domain knowledge. To address these limitations, 
+        a novel physics-informed neural network (PINN) is developed for both forward and inverse analyses of two-dimensional soil consolidations when 
+        only limited measurements are available.
+cover:          /assets/images/covers/APE.jpg
+authors:
+  - Yu Wang
+  - Chao Shi#
+  - Jiangwei Shi
+  - Hu Lu
+links:
+  PDF: https://link.springer.com/article/10.1007/s11440-024-02345-5
+  #Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+---
 
