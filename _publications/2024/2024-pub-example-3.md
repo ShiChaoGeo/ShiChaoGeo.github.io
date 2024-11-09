@@ -8,8 +8,7 @@ pub:            "Tunnelling and Underground Space Technology"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
-abstract: >-
-A domain-specific training image database is first established using generative adversarial networks (GAN) that enable the generation of arbitrary sized image samples from a single training image. Subsequently, multiple qualified image samples that are compatible with site-specific data are adaptively selected and utilized for the ensemble learning of geological cross-sections. 
+abstract: A domain-specific training image database is first established using generative adversarial networks (GAN) that enable the generation of arbitrary sized image samples from a single training image. Subsequently, multiple qualified image samples that are compatible with site-specific data are adaptively selected and utilized for the ensemble learning of geological cross-sections. 
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Chao Shi*
