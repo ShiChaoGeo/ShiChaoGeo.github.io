@@ -12,7 +12,7 @@ abstract: To properly evaluate the long-term COP of GSHP systems in cooling-domi
 cover:          /assets/images/covers/APE.jpg
 authors:
   - Yuanzhong Yan
-  - Chao Shi
+  - __Chao Shi__
   - Gongsheng Huang
   - Yu Wang#
 links:
