@@ -1,22 +1,21 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "An ensemble learning paradigm for subsurface stratigraphy from sparse measurements and augmented training images"
+date:           2024-11-01 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
+pub:            "Tunnelling and Underground Space Technology"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+#pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
+A domain-specific training image database is first established using generative adversarial networks (GAN) that enable the generation of arbitrary sized image samples from a single training image. Subsequently, multiple qualified image samples that are compatible with site-specific data are adaptively selected and utilized for the ensemble learning of geological cross-sections. 
 cover:          /assets/images/covers/cover3.jpg
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Chao Shi*
+  - Yu Wang
+  - Haoqing Yang*
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  PDF: https://www.sciencedirect.com/science/article/abs/pii/S0886779824003900
+  #Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
