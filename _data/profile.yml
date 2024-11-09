@@ -94,11 +94,11 @@ awards:
 - name: National Scholarship, Ministry of Education, China 
   date: 2009, 2011
 
-experience:
-- name: Golder Associates (now WSP), HK
-   logo: /assets/images/badges/WSP.png
-   position: Assistant Geotechnical Engineer
-   date: Mar. 2015 - Jun. 2018
+#experience:
+#- name: Golder Associates (now WSP), HK
+#   logo: /assets/images/badges/WSP.png
+#   position: Assistant Geotechnical Engineer
+#   date: Mar. 2015 - Jun. 2018
 #- name: China Harbour Engineering Company, HK
 #   logo: /assets/images/badges/PKU_red.png
 #   position: Geotechnical Engineer
