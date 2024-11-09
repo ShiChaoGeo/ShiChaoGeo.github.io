@@ -1,1 +1,23 @@
+---
+title:          "Nonparametric and Continuous Variable-Based Stratigraphic Modelling from Sparse Boreholes using Signed Distance Function and Bayesian Compressive Sensing"
+date:           2024-09-24 00:01:00 +0800
+selected:       false
+pub:            "Canadian Geotechnical Journal"
+pub_date:       "2025"
+abstract:      In this study, a non-parametric and continuous variable-based spatial predictor that leverages the signed distance function and Bayesian compressive sensing (BCS) 
+                is proposed for subsurface stratigraphic modelling. The proposed method transforms sparse categorical borehole data from a low-dimensional space into continuous 
+                variables in a high-dimensional space, enabling a comprehensive representation of more implicit characteristics of intricate geological patterns..
+
+cover:          /assets/images/covers/cover2.jpg
+authors:
+  - Zehang Qian
+  - Chao Shi*
+  - Yu Wang
+  - Zijun Cao
+
+links:
+  PDF: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
 
