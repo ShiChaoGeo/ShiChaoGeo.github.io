@@ -11,8 +11,9 @@ date: 2024-01-12 00:01:00 +0800
     <p>
         <a href="https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-civil-engineering#curriculum" target="_blank">CV6312</a> Slope Stability and Ground Improvement
     </p>
-    <hr />
+
     <br />
+    <hr />
     <h5>Undergraduate Course</h5>
     <p>
         CV2013 Engineering Geology and Soil Mechanics
@@ -44,4 +45,4 @@ date: 2024-01-12 00:01:00 +0800
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv4111.pdf?sfvrsn=fc2ef317_16" target="_blank">Course syllabus</a></li>
     </ul>  
     </p>  
-#</div>
+</div>
