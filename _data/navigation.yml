@@ -7,8 +7,8 @@ pages:
   url: /People
 - name: Research
   url: /Research
-- name: Teaching
-  url: /Teaching
+#- name: Teaching
+#  url: /Teaching
 - name: Publications
   url: /publications
 - name: Opportunities
