@@ -17,7 +17,6 @@ date: 2024-01-12 00:01:00 +0800
     <p>
         CV2013 Engineering Geology and Soil Mechanics
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv20136141a6e3dbb44e448be06622467f9dce.pdf?sfvrsn=dcf5e869_2" target="_blank">Course syllabus</a></li>
-      <li><a href="https://bayanbox.ir/view/5663117079924161322/Craigs-Soil-Mechanics8th-EditionR.F.-Craig.pdf" target="_blank">Textbook</a></li>
     <p>
     <p>
         EN2004 Geoenvironment and Soil Mechanics
