@@ -11,23 +11,19 @@ date: 2024-01-12 00:01:00 +0800
     <p>
         <a href="https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-civil-engineering#curriculum" target="_blank">CV6312</a> Slope Stability and Ground Improvement
     </p>
-
-    <br />
     <hr />
+    <br />
+
     <h5>Undergraduate Course</h5>
     <p>
         CV2013 Engineering Geology and Soil Mechanics
-    <ul>
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv20136141a6e3dbb44e448be06622467f9dce.pdf?sfvrsn=dcf5e869_2" target="_blank">Course syllabus</a></li>
       <li><a href="https://bayanbox.ir/view/5663117079924161322/Craigs-Soil-Mechanics8th-EditionR.F.-Craig.pdf" target="_blank">Textbook</a></li>
-    </ul>  
     <p>
     
     <p>
         EN2004 Geoenvironment and Soil Mechanics
-    <ul>
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/en2004.pdf?sfvrsn=18a4a51a_2" target="_blank">Course syllabus</a></li>
-    </ul>  
     </p>    
 
     <p>
@@ -41,8 +37,6 @@ date: 2024-01-12 00:01:00 +0800
     </p>
     <p>
         CV4111 Ground Engineering
-    <ul>
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv4111.pdf?sfvrsn=fc2ef317_16" target="_blank">Course syllabus</a></li>
-    </ul>  
     </p>  
 </div>
