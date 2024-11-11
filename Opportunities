@@ -1,7 +1,7 @@
 ---
 layout: default
-title : Opportunties
-navbar_title: Opportunties
+title : Opportunities
+navbar_title: Opportunities
 ---
 
 {% assign cards_by_group = site.Opportunties | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
