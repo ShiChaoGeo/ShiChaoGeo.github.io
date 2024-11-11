@@ -9,7 +9,7 @@ pages:
   url: /Research
 - name: Publications
   url: /publications
-- name: Opportunities
-  url: /Opportunities 
+#- name: Opportunities
+#  url: /Opportunities 
 #- name: Showcase
 #  url: /showcase
