@@ -14,9 +14,6 @@ date: 2024-01-12 00:01:00 +0800
     <hr />
     <br />
     <h5>Undergraduate Course</h5>
-    <p>
-        CV2013 Engineering Geology and Soil Mechanics
-      <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv20136141a6e3dbb44e448be06622467f9dce.pdf?sfvrsn=dcf5e869_2" target="_blank">Course syllabus</a></li>
-    <p>
+
 </div>
 
