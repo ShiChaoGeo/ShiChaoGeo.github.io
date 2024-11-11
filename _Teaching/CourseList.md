@@ -12,7 +12,7 @@ date: 2024-01-12 00:01:00 +0800
         <a href="https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-civil-engineering#curriculum" target="_blank">CV6312</a> Slope Stability and Ground Improvement
     </p>
     <hr />
-    
+    <br />
     <h5>Undergraduate Course</h5>
     <p>
         CV2013 Engineering Geology and Soil Mechanics
@@ -29,7 +29,7 @@ date: 2024-01-12 00:01:00 +0800
     </p>    
 
     <p>
-    <a href="https://www.ntu.edu.sg/pace/programmes/detail/cv2014-geotechnical-engineering" target="_blank">CV2014</a>Geotechnical Engineering
+    <a href="https://www.ntu.edu.sg/pace/programmes/detail/cv2014-geotechnical-engineering" target="_blank">CV2014</a> Geotechnical Engineering
     </p>
     <p>
     <a href="https://www.ntu.edu.sg/pace/programmes/detail/cv3016-construction-technology-processes#:~:text=Introduction,the%20implementation%20of%20construction%20projects." target="_blank">CV3016</a> Construction Process and Technology
@@ -43,4 +43,4 @@ date: 2024-01-12 00:01:00 +0800
       <li><a href="https://www.ntu.edu.sg/docs/librariesprovider117/admissions/courses/cv4111.pdf?sfvrsn=fc2ef317_16" target="_blank">Course syllabus</a></li>
     </ul>  
     </p>  
-</div>
+#</div>
