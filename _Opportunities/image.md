@@ -4,10 +4,10 @@ width: 4
 date: 2021-09-12 00:01:00 +0800
 height: 295px
 images:
-- src: https://picsum.photos/seed/first1111/800/800
+- src: https://www.ntu.edu.sg/images/default-source/accommodations/the-hiveed0fffeb-e6c0-46dd-9132-7321783f67a9.jpg?Status=Master&sfvrsn=dc5e48c9_3
   title: Photo 1
   desc: Description 1.
-  link: https://picsum.photos/
+  link: https://www.ntu.edu.sg/
 - src: https://picsum.photos/seed/second22/800/800
   title: Photo 2
   desc: Description 2
