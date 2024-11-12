@@ -21,6 +21,10 @@ date: 2024-01-12 00:01:00 +0800
         <ol>
             Visting PhD program funded by <a href="https://www.csc.edu.cn/" target="_blank">CSC</a>
         </ol>
+        <li><strong>Joint PhD programmes</strong></li>
+        <ol>
+            <a href="https://www.ntu.edu.sg/graduate-college/admissions/programme/Joint-Dual-PhD-Programme" target="_blank">Admission requirements</a>
+        </ol>
     </p>
 
  
