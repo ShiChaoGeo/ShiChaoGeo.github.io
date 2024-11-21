@@ -3,7 +3,7 @@ title:          "PhD student - Hanyue Li"
 date:           2024-08-16 00:01:00 +0800
 selected:       true
 #pub:            "Géotechnique"
-pub_date:       "2024.08 - now (co-supervised with Prof. Ivan Au)"
+pub_date:       "2024.08 - now"
 abstract:       BEng, HIT 
 cover:          /assets/images/People/Girl.png
 #authors:
