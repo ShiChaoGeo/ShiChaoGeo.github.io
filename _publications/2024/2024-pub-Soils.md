@@ -3,7 +3,7 @@ title:          "Ensemble Learning of Soil-water Characteristic Curve for Unsatu
 date:           2024-12-12 00:01:00 +0800
 selected:       false
 pub:            "Soils and Foundations"
-pub_date:       "2025"
+pub_date:       "2024"
 abstract:      This study proposes an ensemble learning framework that leverages physics-informed neural networks (PINN) for parameter estimation. 
                 Multiple representative SWCCs following different function forms are compiled, providing flexible learning basis to construct arbitrary
                 SWCC. For a specific slope, the most compatible basis combination is adaptively selected based on limited site-specific measurements 
