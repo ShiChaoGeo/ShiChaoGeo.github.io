@@ -7,9 +7,7 @@ pub_date:       "2025"
 abstract:      This study proposes an ensemble learning framework that leverages physics-informed neural networks (PINN) for parameter estimation. 
                 Multiple representative SWCCs following different function forms are compiled, providing flexible learning basis to construct arbitrary
                 SWCC. For a specific slope, the most compatible basis combination is adaptively selected based on limited site-specific measurements 
-                before being mobilized for forward predictions of hydraulic behavior. The proposed method is illustrated through a hypothetical example
-                and a real slope project at Jalan Kukoh, Singapore. Results indicate that the ensemble learning framework can accurately estimate SWCC
-                functions and the associated pore pressure distributions from limited measurements in a data-driven and physics-informed manner.
+                before being mobilized for forward predictions of hydraulic behavior.
 
 cover:          /assets/images/covers/2024-SaF.png
 authors:
