@@ -16,7 +16,7 @@ authors:
   - Lulu Zhang
 
 links:
-  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  Link: https://www.sciencedirect.com/science/article/pii/S0038080624001343
   #Code: https://github.com
   #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
