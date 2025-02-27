@@ -1,0 +1,24 @@
+---
+title:          "Large Language Model-empowered Paradigm for Automated Geotechnical Site Planning and Geological Characterization"
+date:           2025-02-27 00:01:00 +0800
+selected:       false
+pub:            "Automation in Construction"
+pub_date:       "2025"
+abstract:      This paper develops a customized LLM-based agent named “Geologist” to streamline geotechnical site planning and subsequent
+                geological interpretation. A Multihop-Retrieval-Augmented Generation system is proposed to retrieve site-specific requirements 
+                from multiple site investigation design codes. Moreover, a progressive human-machine collaboration scheme is orchestrated for 
+                interpretable geological modelling. The efficiency of the proposed LLM-guided paradigm is validated through illustrative 
+                examples and real-world case histories. 
+cover:          /assets/images/covers/2025AutoInCon.png
+authors:
+  - Zehang Qian
+  - Chao Shi#
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
+
+
