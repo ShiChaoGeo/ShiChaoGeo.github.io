@@ -7,7 +7,7 @@ pub_date:       "2025"
 abstract:       Predicting long-term pile settlement induced by seasonal heating and cooling cycles is crucial for the safety and serviceability of energy piles. However, traditional numerical methods are limited by the inadequacies
                 of soil constitutive models, and machine learning approaches typically require large datasets and lack interpretability. To address these challenges, this study proposes an
                 interpretable sparse ensemble learning (ISEL) method that integrates finite element model outputs with limited monitoring data to dynamically predict thermally induced long-term pile displacement.
-cover:          /assets/images/covers/2025_GeodataAndAI.png
+cover:          /assets/images/covers/ASCE-JGGE.png
 authors:
   - Bo Sun
   - Chao Shi#
