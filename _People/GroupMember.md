@@ -5,10 +5,11 @@ selected:       true
 #pub:            "Géotechnique"
 pub_date:       "2024.08 - now"
 abstract:       BEng, HIT 
+                Sparse representation, generative modelling
 cover:          /assets/images/People/Li Hanyue.jpg
 #authors:
 #- Chao Shi
 #- Yu Wang#
-links:          Reserach topic - Representation learning
+#links:          Reserach topic - Representation learning
 #  PDF: https://www.icevirtuallibrary.com/doi/abs/10.1680/jgeot.22.00016
 ---
