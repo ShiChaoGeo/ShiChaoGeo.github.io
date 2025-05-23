@@ -4,7 +4,7 @@ date:           2024-08-16 00:01:00 +0800
 selected:       true
 #pub:            "Géotechnique"
 #pub_date:       "2024.08 - now"
-abstract:       Probabilistic site characterization, Sparse representation, Multisource data fusion, Operator learning, Generative modelling, PINN, Manifold learning, LLM 
+abstract:       Digital twin, Probabilistic site characterization, Sparse representation, Multisource data fusion, Operator learning, Generative modelling, PINN, Manifold learning, LLM 
 cover:          /assets/images/covers/2025-CGJ.png
 #authors:
 #- Chao Shi
