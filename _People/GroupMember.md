@@ -5,7 +5,7 @@ selected:       true
 #pub:            "Géotechnique"
 pub_date:       "2024.08 - now"
 abstract:       BEng, HIT 
-pub_date:       Representation learning      
+abstract1:      sfsdfa
 cover:          /assets/images/People/Li Hanyue.jpg
 #authors:
 #- Chao Shi
