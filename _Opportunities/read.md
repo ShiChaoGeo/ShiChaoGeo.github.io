@@ -11,11 +11,11 @@ date: 2024-01-12 00:01:00 +0800
     <p>
         <li> <strong>NTU Research Scholarship</strong></li>
         <ol>
-            <a href="https://www.ntu.edu.sg/education/graduate-programme/cee-phd-programme-(by-research)" target="_blank">Admission requirements </a> (IELTS/TOEFL and/or GRE are needed!)
+            <a href="https://www.ntu.edu.sg/education/graduate-programme/cee-phd-programme-(by-research)" target="_blank">Admission requirements </a> (IELTS/TOEFL)
         </ol>
         <li><strong>Singapore International Graduate Award (SINGA)</strong></li>
         <ol>
-            <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa" target="_blank">Admission requirements </a> (GRE may be waived!)
+            <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa" target="_blank">Admission requirements </a> 
         </ol>
         <li><strong>Non-Graduating Research Programme</strong></li>
         <ol>
