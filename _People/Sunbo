@@ -2,9 +2,10 @@
 title:          "PhD student - Bo Sun"
 date:           2023-08-16 00:01:00 +0800
 selected:       true
-pub:           "2023.08 - now"
-pub_date:       BEng, BJTU; MPhil, SJTU
-abstract:       Research topic: Thermodynamics and Thermomechanical analysis of Geoenergy System
+#pub:           
+pub_date:       "2023.08 - now"
+abstract:       BEng, BJTU; MPhil, SJTU
+                Research topic: Thermodynamics and Thermomechanical analysis of Geoenergy System
 cover:          /assets/images/People/Sun Bo.png
 #authors:
 #- Chao Shi
