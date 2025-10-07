@@ -5,8 +5,6 @@ selected:       false
 pub:            "Journal of Geotechnical and Geoenvironmental Engineering"
 pub_date:       "2025"
 abstract:       Probabilistic interpretation of subsurface stratigraphy from sparse boreholes and cone penetration tests (CPTs) remains a critical yet nontrivial task in geotechnical site characterization. 
-                The challenge primarily arises from three key factors: (1) the modality gap between categorical borehole data and continuous CPT soundings; (2) the noisy and oscillatory nature of CPT profiles;
-                and (3) the spatial variability of geological settings. This study proposes a dual-modal feature learning approach for semi-supervised learning of subsurface stratigraphy from sparse site-specific data with quantified uncertainty.
 cover:          /assets/images/covers/ASCE-JGGE.png
 authors:
   - Qian Zehang
