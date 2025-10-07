@@ -1,15 +1,15 @@
 ---
-title:          "Interpretable ensemble prediction of thermally induced long-term pile settlement from limited monitoring data"
-date:           2025-03-24 00:01:00 +0800
+title:          "A Dual-modal Feature Learning Approach for Probabilistic Semi-supervised Interpretation of Subsurface Stratigraphy from Sparse Boreholes and Cone Penetration Tests"
+date:           2025-09-24 00:01:00 +0800
 selected:       false
 pub:            "Journal of Geotechnical and Geoenvironmental Engineering"
 pub_date:       "2025"
-abstract:       Predicting long-term pile settlement induced by seasonal heating and cooling cycles is crucial for the safety and serviceability of energy piles. However, traditional numerical methods are limited by the inadequacies
-                of soil constitutive models, and machine learning approaches typically require large datasets and lack interpretability. To address these challenges, this study proposes an
-                interpretable sparse ensemble learning (ISEL) method that integrates finite element model outputs with limited monitoring data to dynamically predict thermally induced long-term pile displacement.
-cover:          /assets/images/covers/ASCE-JGGE.png
+abstract:       Probabilistic interpretation of subsurface stratigraphy from sparse boreholes and cone penetration tests (CPTs) remains a critical yet nontrivial task in geotechnical site characterization. 
+                The challenge primarily arises from three key factors: (1) the modality gap between categorical borehole data and continuous CPT soundings; (2) the noisy and oscillatory nature of CPT profiles;
+                and (3) the spatial variability of geological settings. This study proposes a dual-modal feature learning approach for semi-supervised learning of subsurface stratigraphy from sparse site-specific data with quantified uncertainty.
+cover:          /assets/images/covers/2025-JGGE-2.png
 authors:
-  - Bo Sun
+  - Qian Zehang
   - Chao Shi#
 
 
