@@ -5,7 +5,7 @@ selected:       false
 pub:            "Geotechnique"
 pub_date:       "2025"
 abstract:       This study proposes a quasi-manifold learning approach to address these challenges in a stochastic and non-parametric manner. Sparse and incomplete borehole measurements are first transformed from a low-dimensional categorical feature space into a high-dimensional continuous feature space, providing a richer representation of inclusion characteristics. A quasi-manifold-based spatial interpolator is then developed to stochastically interpret high-dimensional features by traversing an embedded manifold, which concisely preserves the essential and meaningful stratigraphic patterns. Subsequently, inverse transformations convert the spatially predicted continuous variables back to categorical feature spaces for constructing two-dimensional geological cross-sections and three-dimensional domains with quantified stratigraphic uncertainty.
-cover:          /assets/images/covers/2025_Geotechnique.tiff
+cover:          /assets/images/covers/2025_Geotechnique.png
 authors:
   - Zehang Qian
   - Chao Shi#
