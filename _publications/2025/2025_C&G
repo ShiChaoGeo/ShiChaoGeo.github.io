@@ -1,1 +1,18 @@
+---
+title:          "Sparse Representation of Irregularly Sampled Geotechnical Data for Probabilistic Gridded Spatial Interpolation using Dictionary Learning"
+date:           2025-12-21 00:01:00 +0800
+selected:       false
+pub:            "Computers and Geotechnics"
+pub_date:       "2025"
+abstract:       This study proposes a space transformation approach to derive a sparse representation of irregularly sampled geodata for gridded spatial interpolation. Spatially varying measurements with an irregular data distribution are first mapped onto a regular grid via affine transformation, and Bayesian compressive sensing is then adopted to generate conditional spatial predictions with quantified statistical uncertainty from the transformed dataset. Subsequently, the predicted random field samples are converted back into the original irregular data space, preserving the correspondence between points across the different data spaces.
+cover:          /assets/images/covers/2025_C&G.png
+authors:
+  - Wei Hu
+  - Chao Shi#
+  - Yu Wang
 
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
