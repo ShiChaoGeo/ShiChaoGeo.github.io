@@ -1,1 +1,20 @@
+---
+title:          "Critical Failure Domain-Informed Smart Sampling for Slope Stability Assessment using Bayesian Compressive Sensing and Reliability Sensitivity Analysis"
+date:           2025-12-22 00:01:00 +0800
+selected:       false
+pub:            "Reliability Engineering & System Safety"
+pub_date:       "2025"
+abstract:       This study develops a data-driven sampling strategy that integrates multi-task Bayesian compressive sensing (BCS), Karhunen–Loeve expansion, and reliability sensitivity analysis (RSA) to adaptively identify critical failure domains and optimize borehole planning. The framework introduces a nonparametric method for interpolating cross-correlated soil fields, incorporates a spatially continuous mean reliability sensitivity indicator (MRSI) derived from FORM to guide domain identification, and extends the analysis to multi-mode failure mechanisms through multi-point FORM. The optimal borehole locations are adaptively determined based on the principle of a maximum reduction in cumulative MRSI. The proposed method is illustrated through both a simulated example and real-life investigation data. Results indicate that the proposed framework can automatically identify critical failure domains for slope reliability analysis, and the determined optimal sampling locations can significantly improve the accuracy of slope reliability analysis. 
+cover:          /assets/images/covers/2025_RESS.png
+authors:
+  - Fanhua Meng
+  - Huafu Pei
+  - Chao Shi#
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
 
