@@ -1,0 +1,19 @@
+---
+title:          "A Unified Thermo-mechanical Constitutive Model for Sand and Clay Based on Hypoplasticity"
+date:           2025-12-15 00:01:00 +0800
+selected:       false
+pub:            "Computers and Geotechnics"
+pub_date:       "2025"
+abstract:       Existing hypoplastic models treat sands and clays as different materials with distinct mathematical formulations. However, sands and clays share many common features in their mechanical behavior, and there is still no unified hypoplastic framework that can concisely describe the behavior of different soil types under various environmental factors, such as temperature variations. To address these challenges, this study develops a unified hypoplastic model that can describe the thermo-mechanical behavior of various soil types. The model naturally reduces to the isothermal hypoplastic formulation at a reference temperature and further simplifies to the respective sand and clay models under specific conditions, highlighting its unifying and extensible structure. The Hypo-UT model can be readily calibrated through standard tests, providing a practical and robust tool for simulating and analyzing soil behavior under thermal loading in geotechnical engineering.
+cover:          /assets/images/covers/2025_C&G_THM.png
+authors:
+  - Qianqian Liu
+  - Chao Shi#
+
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
