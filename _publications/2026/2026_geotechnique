@@ -1,0 +1,19 @@
+---
+title:          "A thermo-mechanical hypoplastic model for granular materials under cyclic thermal loading"
+date:           2026-10-12 00:01:00 +0800
+selected:       false
+pub:            "Geotechnique"
+pub_date:       "2026"
+abstract:       A sound understanding of soil thermo-mechanical behaviors is essential for the effective design and analysis of energy geostructures. Previous studies have primarily focused on thermo-mechanical behavior of fine-grained soils, with limited light shed on granular materials. In practice, granular soils are often modelled as thermoelastic materials, neglecting plastic volumetric deformation and potential variations in shearing performance, particularly when subjected to cyclic thermal loading. To address the abovementioned gaps, this study develops a thermomechanical hypoplastic model (Hypo-ST) to describe the thermo-mechanical behavior of granular materials. A simple evolution rule is introduced to correlate the shift of the isotropic compression line with temperature to reflect thermally induced volume changes. Moreover, the interplay between temperature and stress state on stiffness, dilatancy, and strength of granular materials is explicitly modelled. The newly developed model effectively captures the nonlinear and state-dependent thermo-mechanical coupling behavior of granular materials under monotonic and cyclic thermal loading. Experimental data from a series of laboratory tests, including triaxial shear tests, heating tests, and thermal cycling tests, are applied to demonstrate the performance of the proposed model. The model is able to capture various thermo-mechanical behaviors of granular soils under both isothermal and non-isothermal conditions.
+cover:          /assets/images/covers/2026_geotechnique.tif
+authors:
+  - Qianqian Liu
+  - Chao Shi#
+
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
