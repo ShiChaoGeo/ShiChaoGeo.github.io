@@ -4,7 +4,7 @@ date:           2026-10-13 00:01:00 +0800
 selected:       false
 pub:            "Computer-Aided Civil and Infrastructure Engineering"
 pub_date:       "2026"
-abstract:       Owing to the labor-intensive nature of classic workflows.
+abstract:       To address these challenges, this study proposes an uncertainty-aware, large language model (LLM)-driven multi-agent system (MAS) for autonomous and near-real-time GAs. The proposed MAS introduces the following innovations: (1) a supervisor-centered directed stateful graph architecture with self-check mechanisms and human-in-the-loop modules is introduced to support autonomous multi-task collaboration in GAs while maintaining consistency and robustness; (2) domain-specific sub-agents customized with high-fidelity models and iterative reasoning-action-observation capabilities are designed to streamline uncertainty-aware and trustworthy GAs; (3) a shared data environment is developed to facilitate dynamical exchange of multi-source and multimodal data among agents, enabling rapid risk assessment and timely updates as new data become available.
 cover:          /assets/images/covers/2026_LLM.png
 authors:
   - Zehang Qian
