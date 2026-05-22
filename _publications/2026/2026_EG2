@@ -1,0 +1,19 @@
+---
+title:          "Prior-knowledge-informed Extreme Learning Machine for Probabilistic Characterization of Geotechnical Property Profile from Sparse Measurements"
+date:           2026-10-30 00:01:00 +0800
+selected:       false
+pub:            "Engineering Geology"
+pub_date:       "2026"
+abstract:       Accurately characterizing the spatial variability of geotechnical properties from limited site-specific measurements remains a classical challenge in geotechnical engineering. Existing geostatistical and machine learning methods often rely on large amounts of training data or fixed basis functions for profile reconstruction, which presents limited flexibility and feature expressivity. This study proposes a prior-knowledge-enhanced extreme learning machine (ELM) framework with two-stage feature selection for the probabilistic characterization of geotechnical parameter profiles from limited measurements. 
+cover:          /assets/images/covers/2026_EG1.png
+authors:
+  - Hanyue Li
+  - Chao Shi#
+
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
