@@ -5,7 +5,7 @@ selected:       false
 pub:            "Engineering Geology"
 pub_date:       "2026"
 abstract:       Digital twinning of underground space is a transformative paradigm for life-cycle risk assessment, management, and operation of geotechnical infrastructure. A prerequisite for this transformation is the automated construction of subsurface geological domains from sparse borehole data with quantified stratigraphic uncertainty. However, most three-dimensional (3D) stratigraphic modelling methods are categorical variable (CaV)-based models and primarily rely on site-specific prior geological knowledge or calibration of geological settings to replicate intricate 3D spatial features. This inevitably involves significant computational burdens and frequent human intervention, which impede real-time data transmission and model updating. In this study, a continuous variable (CoV)-based 3D stratigraphic modelling method leveraging multiple Signed Distance Functions (MSDFs) and Bayesian Compressive Sensing (BCS) is proposed to address these challenges. 
-cover:          /assets/images/covers/2026_EG.png
+cover:          /assets/images/covers/2026_EG0.png
 authors:
   - Zehang Qian
   - Chao Shi#
