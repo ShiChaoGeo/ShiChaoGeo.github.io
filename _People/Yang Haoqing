@@ -5,6 +5,7 @@ selected:       true
 #pub:            "Géotechnique"
 pub_date:       "2023.07 - 2024.06"
 abstract:       PhD, SJTU
+status:         alumni
 #cover:          /assets/images/People/Yang Haoqing.jpg
 #authors:
 #- Chao Shi
