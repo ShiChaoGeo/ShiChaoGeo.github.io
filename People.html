@@ -2,40 +2,69 @@
 layout: default
 title : People
 navbar_title: People
-
 ---
 
-{% assign pubs_by_year = site.People | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign all_people = site.People | sort: "date" | reverse %}
 
-<h2>Group member</h2>
+<!-- ===================== -->
+<!-- CURRENT MEMBERS -->
+<!-- ===================== -->
+
+<h2>Current Group Members</h2>
 
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
-        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
-            {% for item in year.items %}
-                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-            {% endfor %}
-        </div>
+
+        {% for item in all_people %}
+            {% if item.status != "alumni" and item.status != "former" %}
+
+                <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last %}
+                </div>
+
+            {% endif %}
         {% endfor %}
-    </div>
 
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
-            {% endfor %}
-        </div>
     </div>
-
 </div>
 
+<!-- ===================== -->
+<!-- FORMER STUDENTS -->
+<!-- ===================== -->
+
+<h2 style="margin-top:40px;">Alumni</h2>
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+
+        {% assign alumni_found = false %}
+
+        {% for item in all_people %}
+            {% if item.status == "alumni" or item.status == "former" %}
+                {% assign alumni_found = true %}
+
+                <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last %}
+                </div>
+
+            {% endif %}
+        {% endfor %}
+
+        {% if alumni_found == false %}
+            <p>No former students listed yet.</p>
+        {% endif %}
+
+    </div>
+</div>
+
+<!-- ===================== -->
+<!-- PHOTO GALLERY -->
+<!-- ===================== -->
 
 <h2>Photo Gallery</h2>
-<img src="/assets/images/People/20Sep2024.jpg" alt="TungLok Seafood (Jurong), 20 Sep 2024", width="450" height="350">
-<img src="/assets/images/People/30 Aug 2024.jpg" alt="NTU N1 roof, 30 Aug 2024", width="450" height="350">
 
+<img src="/assets/images/People/20Sep2024.jpg" alt="Group photo 1" width="450" height="350">
+<img src="/assets/images/People/30 Aug 2024.jpg" alt="Group photo 2" width="450" height="350">
 
 
 
