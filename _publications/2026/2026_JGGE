@@ -1,1 +1,19 @@
+---
+title:          "Physics-Embedded Probabilistic Inverse Learning of Heterogeneous Consolidation Parameters from Sparse Multi-Source Data"
+date:           2026-11-01 00:01:00 +0800
+selected:       false
+pub:            "Journal of Geotechnical and Geoenvironmental Engineering"
+pub_date:       "2026"
+abstract:       Geotechnical properties that govern consolidation behavior, such as the coefficient of consolidation, are spatially heterogeneous and exhibit strong site-specific variability. Reliable estimation of their spatial distribution from sparse field measurements remains a major challenge in reclamation design and performance analysis, particularly for inverse consolidation problems that are ill-posed under limited monitoring data. Conventional data-driven and Bayesian approaches often struggle to integrate sparse multisource observations while simultaneously enforcing consolidation physics. To address this challenge, this study proposes a physics-informed inverse analysis framework for identifying heterogeneous consolidation parameter fields from limited measurements.
+cover:          /assets/images/covers/2026_JGGE.png
+authors:
+  - Yifei Liu
+  - Chao Shi#
 
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
