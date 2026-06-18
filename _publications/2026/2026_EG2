@@ -5,7 +5,7 @@ selected:       false
 pub:            "Engineering Geology"
 pub_date:       "2026"
 abstract:       Accurately characterizing the spatial variability of geotechnical properties from limited site-specific measurements remains a classical challenge in geotechnical engineering. Existing geostatistical and machine learning methods often rely on large amounts of training data or fixed basis functions for profile reconstruction, which presents limited flexibility and feature expressivity. This study proposes a prior-knowledge-enhanced extreme learning machine (ELM) framework with two-stage feature selection for the probabilistic characterization of geotechnical parameter profiles from limited measurements. 
-cover:          /assets/images/covers/2026_EG1.png
+cover:          /assets/images/covers/2026_EG.png
 authors:
   - Hanyue Li
   - Chao Shi#
