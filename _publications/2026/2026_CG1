@@ -1,0 +1,19 @@
+---
+title:          "A unified hypoplastic model for sands and clays under thermal and mechanical cyclic loading"
+date:           2026-11-12 00:01:00 +0800
+selected:       false
+pub:            "Computers and Geotechnics"
+pub_date:       "2026"
+abstract:       With the growing prevalence of underground energy systems, soils are increasingly subjected to both temperature variations and cyclic mechanical loading. However, unified constitutive frameworks capable of modelling thermal cycling and mechanical cyclic responses of both sands and clays are still limited, particularly in reproducing strain accumulation, stiffness degradation and effective stress path evolution. In this study, a unified hypoplastic model (Hypo-UTC) is developed to describe the mechanical behavior of sands and clays subjected to both thermal and mechanical cyclic loading within a single framework.
+cover:          /assets/images/covers/2026_CG1.png
+authors:
+  - Qianqian Liu
+  - Chao Shi#
+
+
+
+links:
+  #Link: hhttps://cdnsciencepub.com/doi/abs/10.1139/cgj-2024-0295
+  #Code: https://github.com
+  #Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
