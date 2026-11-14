@@ -1,72 +1,108 @@
 ---
 layout: default
-title : People
+title: People
 navbar_title: People
 ---
 
+<style>
+    .people-card-image {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        background-color: #eef1f3;
+    }
+
+    .people-gallery img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
 {% assign all_people = site.People | sort: "date" | reverse %}
 
-<!-- ===================== -->
-<!-- CURRENT MEMBERS -->
-<!-- ===================== -->
+<h2 id="current-team">Current Team</h2>
+<p>Meet our research fellows and PhD students.</p>
 
-<h2> Group Members</h2>
-
+<h3 class="mt-4">Research Fellows</h3>
 <div class="row">
-    <div class="col-12 col-lg-10">
-
-        {% for item in all_people %}
-            {% if item.status != "alumni" and item.status != "former" %}
-
-                <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
-                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last %}
-                </div>
-
-            {% endif %}
-        {% endfor %}
-
-    </div>
-</div>
-
-<!-- ===================== -->
-<!-- FORMER STUDENTS -->
-<!-- ===================== -->
-
-<h2 style="margin-top:40px;">Alumni</h2>
-
-<div class="row">
-    <div class="col-12 col-lg-10">
-
-        {% assign alumni_found = false %}
-
-        {% for item in all_people %}
-            {% if item.status == "alumni" or item.status == "former" %}
-                {% assign alumni_found = true %}
-
-                <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
-                    {% include widgets/publication_item.html item=item hide_image=true %}
-                    
-                </div>
-
-            {% endif %}
-        {% endfor %}
-
-        {% if alumni_found == false %}
-            <p>No former students listed yet.</p>
+    {% assign fellows_found = false %}
+    {% for item in all_people %}
+        {% assign title_parts = item.title | split: " - " %}
+        {% assign role = title_parts | first %}
+        {% if item.status != "alumni" and item.status != "former" and role == "Research Fellow" %}
+            {% assign fellows_found = true %}
+            {% include widgets/person_card.html person=item %}
         {% endif %}
-
-    </div>
+    {% endfor %}
+    {% unless fellows_found %}
+        <p class="col-12 text-muted">No research fellows listed.</p>
+    {% endunless %}
 </div>
 
-<!-- ===================== -->
-<!-- PHOTO GALLERY -->
-<!-- ===================== -->
+<h3 class="mt-4">PhD Students</h3>
+<div class="row">
+    {% assign students_found = false %}
+    {% for item in all_people %}
+        {% assign title_parts = item.title | split: " - " %}
+        {% assign role = title_parts | first %}
+        {% if item.status != "alumni" and item.status != "former" and role == "PhD student" %}
+            {% assign students_found = true %}
+            {% include widgets/person_card.html person=item %}
+        {% endif %}
+    {% endfor %}
+    {% unless students_found %}
+        <p class="col-12 text-muted">No PhD students listed.</p>
+    {% endunless %}
+</div>
 
-<h2>Photo Gallery</h2>
+<h2 id="past-members" class="mt-5">Past Members</h2>
 
-<img src="/assets/images/People/20Sep2024.jpg" alt="Group photo 1" width="450" height="350">
-<img src="/assets/images/People/30 Aug 2024.jpg" alt="Group photo 2" width="450" height="350">
+<h3 class="mt-4">Alumni</h3>
+<div class="row">
+    {% assign alumni_found = false %}
+    {% for item in all_people %}
+        {% if item.status == "alumni" or item.status == "former" %}
+            {% unless item.title contains "Visiting" %}
+                {% assign alumni_found = true %}
+                {% include widgets/person_card.html person=item %}
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+    {% unless alumni_found %}
+        <p class="col-12 text-muted">No alumni listed.</p>
+    {% endunless %}
+</div>
 
+<h3 class="mt-4">Visiting Researchers</h3>
+<div class="row">
+    {% assign visitors_found = false %}
+    {% for item in all_people %}
+        {% if item.title contains "Visiting" %}
+            {% assign visitors_found = true %}
+            {% include widgets/person_card.html person=item %}
+        {% endif %}
+    {% endfor %}
+    {% unless visitors_found %}
+        <p class="col-12 text-muted">No visiting researchers listed.</p>
+    {% endunless %}
+</div>
 
-
-
+<h2 id="photo-gallery" class="mt-5">Photo Gallery</h2>
+<div class="row people-gallery">
+    <figure class="col-12 col-md-6 mb-4">
+        <img
+            src="{{ '/assets/images/People/20Sep2024.jpg' | relative_url }}"
+            alt="Research group photo, 20 September 2024"
+            class="img-fluid rounded-sm"
+            loading="lazy">
+        <figcaption class="text-muted small mt-2">20 September 2024</figcaption>
+    </figure>
+    <figure class="col-12 col-md-6 mb-4">
+        <img
+            src="{{ '/assets/images/People/30 Aug 2024.jpg' | relative_url }}"
+            alt="Research group photo, 30 August 2024"
+            class="img-fluid rounded-sm"
+            loading="lazy">
+        <figcaption class="text-muted small mt-2">30 August 2024</figcaption>
+    </figure>
+</div>
