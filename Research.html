@@ -37,7 +37,7 @@ navbar_title: Research
     line-height: 1.3;
   }
   .research-topic-card {
-    height: 100%;
+    height: auto;
     overflow: hidden;
     border: 1px solid #e1e8ed;
     border-radius: 12px;
@@ -53,7 +53,7 @@ navbar_title: Research
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 210px;
+    min-height: 210px;
     margin: 0;
     overflow: hidden;
     border-bottom: 1px solid #eef2f4;
@@ -62,8 +62,10 @@ navbar_title: Research
   }
   .topic-art {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 200px;
     object-fit: contain;
     object-position: center;
   }
@@ -91,7 +93,7 @@ navbar_title: Research
       font-size: 1.3rem;
     }
     .topic-visual {
-      height: 170px;
+      min-height: 180px;
       padding: 0.45rem;
     }
     .topic-copy {
