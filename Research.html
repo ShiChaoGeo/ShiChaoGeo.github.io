@@ -8,26 +8,37 @@ navbar_title: Research
   body > .container {
     max-width: 1320px;
   }
+  #research-themes,
+  #research-themes h2,
+  #research-themes h3,
+  #research-themes h4,
+  #research-themes p,
+  #research-themes span {
+    color: #000;
+  }
   .research-intro {
     max-width: 760px;
     margin: 0 0 2.5rem;
-    color: #536273;
     font-size: 1.08rem;
   }
   .research-theme {
-    margin: 3rem 0 3.5rem;
+    margin: 2rem 0 2.5rem;
+    padding: 1.5rem 1.6rem 1.3rem;
+    border: 1px solid #e1e8ed;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(27, 55, 75, 0.06);
   }
   .research-theme-heading {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    margin-bottom: 1.35rem;
-    padding-bottom: 0.9rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #dfe7ed;
   }
   .research-theme-number {
     flex: 0 0 auto;
-    color: #000000;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -35,22 +46,22 @@ navbar_title: Research
   }
   .research-theme-heading h3 {
     margin: 0;
-    color: #20384b;
     font-size: 1.55rem;
     line-height: 1.3;
   }
-  .research-topic-card {
-    height: auto;
-    overflow: hidden;
-    border: 1px solid #e1e8ed;
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: 0 3px 12px rgba(27, 55, 75, 0.06);
-    transition: transform 160ms ease, box-shadow 160ms ease;
+  .research-topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .research-topic-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 22px rgba(27, 55, 75, 0.12);
+  .research-topic-card {
+    min-width: 0;
+    padding: 1.1rem 1.25rem 1.25rem;
+  }
+  .research-topic-card:nth-child(odd) {
+    border-right: 1px solid #e5eaee;
+  }
+  .research-topic-card:nth-child(n + 3) {
+    border-top: 1px solid #e5eaee;
   }
   .topic-visual {
     display: flex;
@@ -59,7 +70,6 @@ navbar_title: Research
     min-height: 280px;
     margin: 0;
     overflow: hidden;
-    border-bottom: 1px solid #eef2f4;
     background: #fff;
     padding: 0.65rem;
   }
@@ -73,27 +83,40 @@ navbar_title: Research
     object-position: center;
   }
   .topic-copy {
-    padding: 0.95rem 1.1rem 1.05rem;
+    padding-top: 0.8rem;
   }
   .topic-copy h4 {
     margin: 0;
-    color: #20384b;
     font-size: 1.04rem;
     font-weight: 650;
     line-height: 1.35;
   }
   .topic-copy p {
     margin: 0.3rem 0 0;
-    color: #627181;
     font-size: 0.9rem;
     line-height: 1.45;
   }
-  @media (max-width: 575.98px) {
+  @media (max-width: 767.98px) {
     .research-theme {
-      margin: 2.4rem 0 2.8rem;
+      margin: 1.6rem 0 2rem;
+      padding: 1.1rem 0.55rem 0.75rem;
+    }
+    .research-theme-heading {
+      padding: 0 0.55rem 0.85rem;
     }
     .research-theme-heading h3 {
       font-size: 1.3rem;
+    }
+    .research-topic-grid {
+      grid-template-columns: 1fr;
+    }
+    .research-topic-card {
+      padding: 1rem 0.6rem 1.15rem;
+      border-right: 0 !important;
+      border-top: 1px solid #e5eaee;
+    }
+    .research-topic-card:first-child {
+      border-top: 0;
     }
     .topic-visual {
       min-height: 220px;
@@ -102,72 +125,71 @@ navbar_title: Research
     .topic-art {
       max-height: 210px;
     }
-    .topic-copy {
-      padding: 0.85rem 1rem 0.95rem;
-    }
     .topic-copy h4 {
       font-size: 1.02rem;
     }
   }
 </style>
 
-<h2>Research Themes</h2>
-<p class="research-intro">Research at the intersection of geotechnical engineering, data-driven methods, and resilient infrastructure.</p>
+<div id="research-themes">
+  <h2>Research Themes</h2>
+  <p class="research-intro">Research at the intersection of geotechnical engineering, data-driven methods, and resilient infrastructure.</p>
 
-<section class="research-theme" aria-labelledby="theme-ai">
-  <div class="research-theme-heading"><span class="research-theme-number">01</span><h3 id="theme-ai">AI for Geotechnical Engineering</h3></div>
-  <div class="row">
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/digital-twin-underground-infrastructure.png' | relative_url }}" alt="AI-enabled digital twin coordinating underground tunnel construction and geotechnical monitoring" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Digital twinning and automation of underground infrastructure</h4><p>LLMs and generative AI</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_Geotechnique.png' | relative_url }}" alt="Probabilistic subsurface interpretation from sparse boreholes" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Probabilistic geotechnical site characterization</h4><p>Borehole data, ground profiles, and uncertainty.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G.png' | relative_url }}" alt="Spatial uncertainty fields from sparse geotechnical measurements" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Sparse representation and multisource data fusion</h4><p>Early risk identification for tunnelling and deep excavation.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_LLM.png' | relative_url }}" alt="Uncertainty-aware multi-agent system for automated geotechnical analysis" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>VR/MR and embodied AI</h4><p>Immersive and robotic intelligence for geotechnical work.</p></div>
-    </article></div>
-  </div>
-</section>
+  <section class="research-theme" aria-labelledby="theme-ai">
+    <div class="research-theme-heading"><span class="research-theme-number">01</span><h3 id="theme-ai">AI for Geotechnical Engineering</h3></div>
+    <div class="research-topic-grid">
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/digital-twin-underground-infrastructure.png' | relative_url }}" alt="AI-enabled digital twin coordinating underground tunnel construction and geotechnical monitoring" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Digital twinning and automation of underground infrastructure</h4><p>LLMs and generative AI</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_Geotechnique.png' | relative_url }}" alt="Probabilistic subsurface interpretation from sparse boreholes" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Probabilistic geotechnical site characterization</h4><p>Borehole data, ground profiles, and uncertainty.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&amp;G.png' | relative_url }}" alt="Spatial uncertainty fields from sparse geotechnical measurements" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Sparse representation and multisource data fusion</h4><p>Early risk identification for tunnelling and deep excavation.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_LLM.png' | relative_url }}" alt="Uncertainty-aware multi-agent system for automated geotechnical analysis" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>VR/MR and embodied AI</h4><p>Immersive and robotic intelligence for geotechnical work.</p></div>
+      </article>
+    </div>
+  </section>
 
-<section class="research-theme" aria-labelledby="theme-thermo">
-  <div class="research-theme-heading"><span class="research-theme-number">02</span><h3 id="theme-thermo">Thermodynamics and Thermomechanical Analysis of Subsurface Energy Systems</h3></div>
-  <div class="row">
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G_THM.png' | relative_url }}" alt="Thermo-mechanical constitutive model for sand and clay" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Thermo-hydro-mechanical modelling of geomaterials</h4><p>Coupled heat, water flow, and ground response.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_geotechnique.png' | relative_url }}" alt="Thermo-mechanical model validated with granular soil laboratory tests" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Advanced laboratory testing</h4><p>Instrumented experiments with data-driven interpretation.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2024-CG.png' | relative_url }}" alt="Finite-element model of a driven energy pile in sand" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Thermomechanical soil-structure behavior</h4><p>Energy piles, tunnels, and walls.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_ATE.png' | relative_url }}" alt="Seawater-driven energy-pile thermal storage concept for sustainable cooling" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Thermodynamic analysis of novel decarbonization infrastructure</h4><p>Subsurface systems for a lower-carbon built environment.</p></div>
-    </article></div>
-  </div>
-</section>
+  <section class="research-theme" aria-labelledby="theme-thermo">
+    <div class="research-theme-heading"><span class="research-theme-number">02</span><h3 id="theme-thermo">Thermodynamics and Thermomechanical Analysis of Subsurface Energy Systems</h3></div>
+    <div class="research-topic-grid">
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&amp;G_THM.png' | relative_url }}" alt="Thermo-mechanical constitutive model for sand and clay" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Thermo-hydro-mechanical modelling of geomaterials</h4><p>Coupled heat, water flow, and ground response.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_geotechnique.png' | relative_url }}" alt="Thermo-mechanical model validated with granular soil laboratory tests" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Advanced laboratory testing</h4><p>Instrumented experiments with data-driven interpretation.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2024-CG.png' | relative_url }}" alt="Finite-element model of a driven energy pile in sand" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Thermomechanical soil-structure behavior</h4><p>Energy piles, tunnels, and walls.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_ATE.png' | relative_url }}" alt="Seawater-driven energy-pile thermal storage concept for sustainable cooling" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Thermodynamic analysis of novel decarbonization infrastructure</h4><p>Subsurface systems for a lower-carbon built environment.</p></div>
+      </article>
+    </div>
+  </section>
 
-<section class="research-theme" aria-labelledby="theme-soil">
-  <div class="research-theme-heading"><span class="research-theme-number">03</span><h3 id="theme-soil">Soil-Structure Interaction</h3></div>
-  <div class="row">
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_TUST1.png' | relative_url }}" alt="Physics-informed, multi-source characterization of mixed-face geology along a tunnel" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Tunnels, excavations, and slope stability</h4><p>Ground response and infrastructure performance.</p></div>
-    </article></div>
-    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/Pasted Image 2.png' | relative_url }}" alt="Offshore barge using deep cement mixing to improve reclaimed marine ground" loading="lazy" decoding="async"></figure>
-      <div class="topic-copy"><h4>Land reclamation and coastal defense</h4><p>Ground improvement and resilient coastal infrastructure.</p></div>
-    </article></div>
-  </div>
-</section>
+  <section class="research-theme" aria-labelledby="theme-soil">
+    <div class="research-theme-heading"><span class="research-theme-number">03</span><h3 id="theme-soil">Soil-Structure Interaction</h3></div>
+    <div class="research-topic-grid">
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_TUST1.png' | relative_url }}" alt="Physics-informed, multi-source characterization of mixed-face geology along a tunnel" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Tunnels, excavations, and slope stability</h4><p>Ground response and infrastructure performance.</p></div>
+      </article>
+      <article class="research-topic-card">
+        <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/Pasted Image 2.png' | relative_url }}" alt="Offshore barge using deep cement mixing to improve reclaimed marine ground" loading="lazy" decoding="async"></figure>
+        <div class="topic-copy"><h4>Land reclamation and coastal defense</h4><p>Ground improvement and resilient coastal infrastructure.</p></div>
+      </article>
+    </div>
+  </section>
+</div>
