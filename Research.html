@@ -51,47 +51,37 @@ navbar_title: Research
   }
   .topic-visual {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 210px;
-    max-height: 290px;
+    height: 210px;
     margin: 0;
     overflow: hidden;
     border-bottom: 1px solid #eef2f4;
     background: #fff;
-    padding: 0.7rem 0.8rem;
+    padding: 0.65rem;
   }
   .topic-art {
     display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 220px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-  }
-  .topic-credit {
-    margin-top: 0.45rem;
-    color: #73808b;
-    font-size: 0.72rem;
-    line-height: 1.25;
-    text-align: center;
+    object-position: center;
   }
   .topic-copy {
-    padding: 1.15rem 1.3rem 1.35rem;
+    padding: 0.95rem 1.1rem 1.05rem;
   }
   .topic-copy h4 {
     margin: 0;
     color: #20384b;
-    font-size: 1.08rem;
+    font-size: 1.04rem;
     font-weight: 650;
-    line-height: 1.4;
+    line-height: 1.35;
   }
   .topic-copy p {
-    margin: 0.35rem 0 0;
+    margin: 0.3rem 0 0;
     color: #627181;
-    font-size: 0.93rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.45;
   }
   @media (max-width: 575.98px) {
     .research-theme {
@@ -101,11 +91,14 @@ navbar_title: Research
       font-size: 1.3rem;
     }
     .topic-visual {
-      min-height: 180px;
-      max-height: 235px;
+      height: 170px;
+      padding: 0.45rem;
     }
-    .topic-art {
-      max-height: 170px;
+    .topic-copy {
+      padding: 0.85rem 1rem 0.95rem;
+    }
+    .topic-copy h4 {
+      font-size: 1.02rem;
     }
   }
 </style>
@@ -117,19 +110,19 @@ navbar_title: Research
   <div class="research-theme-heading"><span class="research-theme-number">01</span><h3 id="theme-ai">AI for Geotechnical Engineering</h3></div>
   <div class="row">
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025AutoInCon.png' | relative_url }}" alt="LLM-driven geotechnical site planning and geological characterization workflow" loading="lazy" decoding="async"><figcaption class="topic-credit">Qian &amp; Shi, <em>Automation in Construction</em> (2025)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025AutoInCon.png' | relative_url }}" alt="LLM-driven geotechnical site planning and geological characterization workflow" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Digital twinning and automation of underground infrastructure</h4><p>LLMs and generative AI</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_Geotechnique.png' | relative_url }}" alt="Probabilistic subsurface interpretation from sparse boreholes" loading="lazy" decoding="async"><figcaption class="topic-credit">Qian &amp; Shi, <em>Geotechnique</em> (2025)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_Geotechnique.png' | relative_url }}" alt="Probabilistic subsurface interpretation from sparse boreholes" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Probabilistic geotechnical site characterization</h4><p>Borehole data, ground profiles, and uncertainty.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G.png' | relative_url }}" alt="Spatial uncertainty fields from sparse geotechnical measurements" loading="lazy" decoding="async"><figcaption class="topic-credit">Hu et al., <em>Computers and Geotechnics</em> (2025)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G.png' | relative_url }}" alt="Spatial uncertainty fields from sparse geotechnical measurements" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Sparse representation and multisource data fusion</h4><p>Early risk identification for tunnelling and deep excavation.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_LLM.png' | relative_url }}" alt="Uncertainty-aware multi-agent system for automated geotechnical analysis" loading="lazy" decoding="async"><figcaption class="topic-credit">Qian &amp; Shi, <em>Computer-Aided Civil and Infrastructure Engineering</em> (2026)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_LLM.png' | relative_url }}" alt="Uncertainty-aware multi-agent system for automated geotechnical analysis" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>VR/MR and embodied AI</h4><p>Immersive and robotic intelligence for geotechnical work.</p></div>
     </article></div>
   </div>
@@ -139,19 +132,19 @@ navbar_title: Research
   <div class="research-theme-heading"><span class="research-theme-number">02</span><h3 id="theme-thermo">Thermodynamics and Thermomechanical Analysis of Subsurface Energy Systems</h3></div>
   <div class="row">
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G_THM.png' | relative_url }}" alt="Thermo-mechanical constitutive model for sand and clay" loading="lazy" decoding="async"><figcaption class="topic-credit">Liu &amp; Shi, <em>Computers and Geotechnics</em> (2025)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2025_C&G_THM.png' | relative_url }}" alt="Thermo-mechanical constitutive model for sand and clay" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Thermo-hydro-mechanical modelling of geomaterials</h4><p>Coupled heat, water flow, and ground response.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_geotechnique.png' | relative_url }}" alt="Thermo-mechanical model validated with granular soil laboratory tests" loading="lazy" decoding="async"><figcaption class="topic-credit">Liu &amp; Shi, <em>Geotechnique</em> (2026)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_geotechnique.png' | relative_url }}" alt="Thermo-mechanical model validated with granular soil laboratory tests" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Advanced laboratory testing</h4><p>Instrumented experiments with data-driven interpretation.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2024-CG.png' | relative_url }}" alt="Finite-element model of a driven energy pile in sand" loading="lazy" decoding="async"><figcaption class="topic-credit">Sun, Shi &amp; Leung, <em>Computers and Geotechnics</em> (2024)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2024-CG.png' | relative_url }}" alt="Finite-element model of a driven energy pile in sand" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Thermomechanical soil-structure behavior</h4><p>Energy piles, tunnels, and walls.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_ATE.png' | relative_url }}" alt="Seawater-driven energy-pile thermal storage concept for sustainable cooling" loading="lazy" decoding="async"><figcaption class="topic-credit">Xu &amp; Shi, <em>Applied Thermal Engineering</em> (2026)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_ATE.png' | relative_url }}" alt="Seawater-driven energy-pile thermal storage concept for sustainable cooling" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Thermodynamic analysis of novel decarbonization infrastructure</h4><p>Subsurface systems for a lower-carbon built environment.</p></div>
     </article></div>
   </div>
@@ -161,11 +154,11 @@ navbar_title: Research
   <div class="research-theme-heading"><span class="research-theme-number">03</span><h3 id="theme-soil">Soil-Structure Interaction</h3></div>
   <div class="row">
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_TUST1.png' | relative_url }}" alt="Physics-informed, multi-source characterization of mixed-face geology along a tunnel" loading="lazy" decoding="async"><figcaption class="topic-credit">Lin et al., <em>Tunnelling and Underground Space Technology</em> (2026)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_TUST1.png' | relative_url }}" alt="Physics-informed, multi-source characterization of mixed-face geology along a tunnel" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Tunnels, excavations, and slope stability</h4><p>Ground response and infrastructure performance.</p></div>
     </article></div>
     <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
-      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_Georisk.png' | relative_url }}" alt="Probabilistic stratigraphic interpretation from sparse cone penetration tests" loading="lazy" decoding="async"><figcaption class="topic-credit">Lu et al., <em>Georisk</em> (2026)</figcaption></figure>
+      <figure class="topic-visual"><img class="topic-art" src="{{ '/assets/images/covers/2026_Georisk.png' | relative_url }}" alt="Probabilistic stratigraphic interpretation from sparse cone penetration tests" loading="lazy" decoding="async"></figure>
       <div class="topic-copy"><h4>Land reclamation and coastal defense</h4><p>Ground improvement and resilient coastal infrastructure.</p></div>
     </article></div>
   </div>
