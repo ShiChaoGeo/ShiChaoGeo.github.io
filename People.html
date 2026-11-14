@@ -5,11 +5,26 @@ navbar_title: People
 ---
 
 <style>
+    .people-card-content {
+        min-height: 150px;
+    }
+
+    .people-card-photo {
+        flex: 0 0 34%;
+        max-width: 34%;
+    }
+
     .people-card-image {
+        display: block;
         width: 100%;
-        height: 150px;
+        height: 140px;
         object-fit: contain;
         background-color: #eef1f3;
+        border-radius: .25rem 0 0 .25rem;
+    }
+
+    .people-card-details {
+        min-width: 0;
     }
 
     .people-gallery img {
