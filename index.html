@@ -19,3 +19,22 @@ navbar_title: Home
         {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
     {% endif %}
 {% endif %}
+
+<style>
+  .home-visitor-section {
+    color: #000;
+  }
+  .home-visitor-map img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<section class="home-visitor-section my-4 text-center" aria-labelledby="visitor-map-heading">
+  <h2 class="h4" id="visitor-map-heading">Visitor Map</h2>
+  <p>Explore the countries represented among visitors; the count shows total pageviews, not unique visitors.</p>
+  <div class="home-visitor-map">
+    <a href="https://info.flagcounter.com/dQto"><img src="https://s05.flagcounter.com/map/dQto/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+  </div>
+  <p class="small mt-2">Visitor locations are estimated by Flag Counter. See its <a href="https://flagcounter.com/privacy.html">privacy policy</a>.</p>
+</section>
