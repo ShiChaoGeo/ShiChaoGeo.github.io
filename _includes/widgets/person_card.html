@@ -1,0 +1,31 @@
+{% assign person = include.person %}
+{% assign title_parts = person.title | split: " - " %}
+{% assign role = title_parts | first %}
+{% assign name = title_parts | last %}
+
+<article class="col-12 col-sm-6 col-lg-4 mb-4">
+    <div class="card h-100 border-0 shadow-sm">
+        {% if person.cover %}
+            <img
+                src="{{ person.cover | relative_url }}"
+                alt="{{ name | escape }}"
+                class="card-img-top people-card-image"
+                loading="lazy">
+        {% else %}
+            <div class="people-card-image" aria-hidden="true"></div>
+        {% endif %}
+
+        <div class="card-body">
+            <p class="small text-muted mb-1">{{ role | escape }}</p>
+            <h4 class="h5 card-title">{{ name | escape }}</h4>
+
+            {% if person.abstract %}
+                <p class="card-text">{{ person.abstract | escape }}</p>
+            {% endif %}
+
+            {% if person.pub_date %}
+                <p class="small text-muted mb-0">{{ person.pub_date | escape }}</p>
+            {% endif %}
+        </div>
+    </div>
+</article>
