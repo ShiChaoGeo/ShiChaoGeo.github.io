@@ -24,7 +24,7 @@ navbar_title: Research
   }
   .research-theme-number {
     flex: 0 0 auto;
-    color: #0e8a91;
+    color: #000000;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -59,6 +59,12 @@ navbar_title: Research
     height: auto;
     aspect-ratio: 2.12 / 1;
   }
+  .topic-art text {
+    fill: #334b5d;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+  }
   .topic-copy {
     padding: 1.15rem 1.3rem 1.35rem;
   }
@@ -74,12 +80,6 @@ navbar_title: Research
     color: #627181;
     font-size: 0.93rem;
     line-height: 1.5;
-  }
-  .research-art-library {
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
   }
   @media (max-width: 575.98px) {
     .research-theme {
@@ -97,142 +97,105 @@ navbar_title: Research
 <h2>Research Themes</h2>
 <p class="research-intro">Research at the intersection of geotechnical engineering, data-driven methods, and resilient infrastructure.</p>
 
-<svg class="research-art-library" aria-hidden="true" focusable="false">
-  <defs>
-    <symbol id="geo-engineer" viewBox="0 0 48 78">
-      <path d="M10 19a14 14 0 0 1 28 0v3H10z" fill="#efa94e" stroke="#bc7629" stroke-width="2"/>
-      <path d="M15 22h18v13H15z" rx="6" fill="#f2c99b" stroke="#9f704f" stroke-width="1.5"/>
-      <path d="M8 76V51c0-9 7-15 16-15s16 6 16 15v25z" fill="#24516b"/>
-      <path d="M15 43l9 12 9-12M24 55v20" fill="none" stroke="#d7e5e9" stroke-width="2"/>
-      <path d="M2 57h11v16H2z" fill="#f4f7f8" stroke="#77909c" stroke-width="1.5"/>
-      <path d="M5 61h5M5 65h5M5 69h4" stroke="#0e8a91" stroke-width="1.3"/>
-    </symbol>
-    <symbol id="ai-network" viewBox="0 0 72 56">
-      <path d="M12 37L29 13l17 14 15-12M29 13l4 34 13-20 15 15" fill="none" stroke="#0e8a91" stroke-width="2" stroke-dasharray="3 3"/>
-      <circle cx="12" cy="37" r="4" fill="#f0aa4d"/><circle cx="29" cy="13" r="4" fill="#0e8a91"/>
-      <circle cx="46" cy="27" r="4" fill="#0e8a91"/><circle cx="61" cy="15" r="4" fill="#f0aa4d"/>
-      <circle cx="33" cy="47" r="4" fill="#f0aa4d"/><circle cx="61" cy="42" r="4" fill="#0e8a91"/>
-    </symbol>
-  </defs>
-</svg>
-
 <section class="research-theme" aria-labelledby="theme-ai">
-  <div class="research-theme-heading">
-    <span class="research-theme-number">01</span>
-    <h3 id="theme-ai">AI for Geotechnical Engineering</h3>
-  </div>
+  <div class="research-theme-heading"><span class="research-theme-number">01</span><h3 id="theme-ai">AI for Geotechnical Engineering</h3></div>
   <div class="row">
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#e9f3f2"/><path d="M0 126h360v44H0z" fill="#d5c9b2"/><path d="M0 139h360M0 153h360" stroke="#b6a58a" stroke-width="2"/>
-          <path d="M103 126V87a78 78 0 0 1 154 0v39" fill="#f8fbfa" stroke="#315e70" stroke-width="8"/><path d="M117 126V90a64 64 0 0 1 126 0v36" fill="none" stroke="#80aab0" stroke-width="2" stroke-dasharray="5 5"/>
-          <path d="M133 89h92M138 72h82M149 56h60" stroke="#0e8a91" stroke-width="1.5" opacity=".65"/><use href="#geo-engineer" x="35" y="91" width="40" height="66"/><use href="#ai-network" x="276" y="17" width="65" height="50"/>
-          <circle cx="178" cy="97" r="4" fill="#efa94e"/><path d="M178 97l22-27m-22 27l-27-23" stroke="#efa94e" stroke-width="2"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Digital twinning and automation of underground infrastructure</h4><p>LLMs and generative AI</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#edf4f6"/><path d="M0 62h360v28H0z" fill="#d6c6a9"/><path d="M0 90h360v30H0z" fill="#b9c9b1"/><path d="M0 120h360v50H0z" fill="#d7c7ae"/><path d="M0 78h360M0 108h360M0 143h360" stroke="#fff" stroke-width="2" opacity=".75"/>
-          <path d="M208 26v126" stroke="#304e62" stroke-width="5"/><path d="M198 37h20m-20 22h20m-20 22h20m-20 22h20" stroke="#efa94e" stroke-width="3"/><path d="M222 55c34 12 34 37 0 49" fill="none" stroke="#0e8a91" stroke-width="3" stroke-dasharray="4 4"/><use href="#geo-engineer" x="42" y="93" width="39" height="64"/><use href="#ai-network" x="275" y="18" width="66" height="50"/>
-          <circle cx="208" cy="45" r="19" fill="none" stroke="#0e8a91" stroke-dasharray="3 4"/><circle cx="208" cy="45" r="28" fill="none" stroke="#0e8a91" stroke-dasharray="2 5" opacity=".65"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Probabilistic geotechnical site characterization</h4><p>Subsurface profiles with uncertainty made visible.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eef4f3"/><path d="M0 112h360v58H0z" fill="#d8cbb5"/><path d="M112 112V56h169v56" fill="#f8fbfa" stroke="#385c6d" stroke-width="5"/><path d="M128 112V72h139v40" fill="none" stroke="#0e8a91" stroke-width="2" stroke-dasharray="5 4"/><path d="M125 56h144M142 66v45m36-45v45m36-45v45" stroke="#efa94e" stroke-width="3"/>
-          <use href="#geo-engineer" x="37" y="89" width="39" height="65"/><use href="#ai-network" x="278" y="15" width="64" height="50"/>
-          <circle cx="142" cy="57" r="5" fill="#0e8a91"/><circle cx="197" cy="57" r="5" fill="#0e8a91"/><circle cx="252" cy="57" r="5" fill="#0e8a91"/><path d="M142 57L294 40M197 57l97-17M252 57l42-17" stroke="#0e8a91" stroke-width="1.4" stroke-dasharray="3 4"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Sparse representation and multisource data fusion</h4><p>Early risk identification for tunnelling and deep excavation.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eaf2f4"/><path d="M0 122h360v48H0z" fill="#d4c7b1"/><path d="M85 122V85a65 65 0 0 1 130 0v37" fill="#f8fbfa" stroke="#426273" stroke-width="6"/><path d="M240 114l22-18 17 10 18-30 20 12" fill="none" stroke="#315e70" stroke-width="5"/><path d="M253 96l18-20 18 10" fill="none" stroke="#0e8a91" stroke-width="2" stroke-dasharray="4 3"/><use href="#geo-engineer" x="34" y="93" width="38" height="63"/><use href="#ai-network" x="277" y="18" width="64" height="50"/>
-          <path d="M55 108a14 14 0 0 1 27 0v8H55z" fill="none" stroke="#efa94e" stroke-width="3"/><path d="M68 116v9m-8 0h16" stroke="#efa94e" stroke-width="2"/><circle cx="286" cy="118" r="8" fill="#f5f8f8" stroke="#0e8a91" stroke-width="2"/><path d="M286 126v16m-9-8h18" stroke="#0e8a91" stroke-width="2"/>
-        </svg></div>
-        <div class="topic-copy"><h4>VR/MR and embodied AI</h4><p>Immersive and robotic intelligence for geotechnical work.</p></div>
-      </article>
-    </div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram linking underground infrastructure sensors to an AI model and digital twin">
+        <rect width="360" height="170" fill="#edf4f5"/><path d="M0 118h360v52H0z" fill="#d5c9b2"/><path d="M0 136h360M0 153h360" stroke="#b6a58a" stroke-width="2"/>
+        <rect x="14" y="23" width="94" height="48" rx="5" fill="#fff" stroke="#567687" stroke-width="2"/><text x="26" y="43">Site data</text><text x="26" y="58">sensors + logs</text>
+        <rect x="133" y="23" width="88" height="48" rx="5" fill="#d9eeee" stroke="#0e8a91" stroke-width="2"/><text x="151" y="43">LLM /</text><text x="153" y="58">GenAI</text>
+        <rect x="246" y="23" width="100" height="48" rx="5" fill="#fff" stroke="#567687" stroke-width="2"/><text x="258" y="51">Digital twin</text>
+        <path d="M108 47h22m-8-7 8 7-8 7m99-7h25m-8-7 8 7-8 7" fill="none" stroke="#e79a3d" stroke-width="2.5"/>
+        <path d="M130 137v-20a50 50 0 0 1 100 0v20" fill="#f8fbfa" stroke="#315e70" stroke-width="7"/><path d="M142 137v-19a38 38 0 0 1 76 0v19" fill="none" stroke="#0e8a91" stroke-width="2" stroke-dasharray="4 4"/>
+        <path d="M297 72v33m-8-7 8 7 8-7" fill="none" stroke="#e79a3d" stroke-width="2"/><circle cx="174" cy="116" r="4" fill="#e79a3d"/><circle cx="197" cy="116" r="4" fill="#0e8a91"/>
+      </svg></div>
+      <div class="topic-copy"><h4>Digital twinning and automation of underground infrastructure</h4><p>LLMs and generative AI</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram of borehole data informing a probabilistic subsurface model">
+        <rect width="360" height="170" fill="#edf4f6"/><path d="M0 68h360v32H0z" fill="#d6c6a9"/><path d="M0 100h360v30H0z" fill="#b9c9b1"/><path d="M0 130h360v40H0z" fill="#d7c7ae"/><path d="M0 84h360M0 116h360M0 148h360" stroke="#fff" stroke-width="2"/>
+        <path d="M92 28v124m172-124v124" stroke="#315e70" stroke-width="4" stroke-dasharray="5 4"/><path d="M105 44c40 15 82-8 115 4s48 19 75 4v68c-39-15-72 8-111-5s-49-18-79-4z" fill="#0e8a91" opacity=".17" stroke="#0e8a91" stroke-width="2"/>
+        <path d="M92 57h18m-18 25h18m-18 25h18m154-48h18m-18 25h18m-18 25h18" stroke="#e79a3d" stroke-width="3"/>
+        <rect x="130" y="18" width="103" height="27" rx="4" fill="#fff" stroke="#567687"/><text x="143" y="36">Site model + uncertainty</text>
+        <circle cx="151" cy="83" r="4" fill="#0e8a91"/><circle cx="194" cy="103" r="4" fill="#e79a3d"/><circle cx="224" cy="70" r="4" fill="#0e8a91"/>
+      </svg></div>
+      <div class="topic-copy"><h4>Probabilistic geotechnical site characterization</h4><p>Borehole data, ground profiles, and uncertainty.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram fusing geotechnical records and sensor streams into an early risk map">
+        <rect width="360" height="170" fill="#eef4f3"/><rect x="16" y="20" width="82" height="31" rx="4" fill="#fff" stroke="#567687"/><text x="42" y="40">Logs</text><rect x="16" y="67" width="82" height="31" rx="4" fill="#fff" stroke="#567687"/><text x="37" y="87">Sensors</text><rect x="16" y="114" width="82" height="31" rx="4" fill="#fff" stroke="#567687"/><text x="37" y="134">Images</text>
+        <path d="M98 35h34v42m-34 47h34V77m-34 6h34" fill="none" stroke="#0e8a91" stroke-width="2"/><rect x="132" y="54" width="91" height="46" rx="5" fill="#d9eeee" stroke="#0e8a91" stroke-width="2"/><text x="146" y="74">Data fusion</text><text x="149" y="89">+ sparse model</text>
+        <path d="M223 77h28m-8-7 8 7-8 7" fill="none" stroke="#e79a3d" stroke-width="2.5"/><rect x="252" y="54" width="94" height="46" rx="5" fill="#fff" stroke="#567687" stroke-width="2"/><text x="266" y="74">Early risk</text><text x="269" y="89">identification</text>
+        <path d="M0 154h360" stroke="#d5c9b2" stroke-width="16"/><path d="M271 145l18-15 17 10 18-22 20 9" fill="none" stroke="#e79a3d" stroke-width="3"/>
+      </svg></div>
+      <div class="topic-copy"><h4>Sparse representation and multisource data fusion</h4><p>Early risk identification for tunnelling and deep excavation.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram connecting a geotechnical worksite, mixed reality, and embodied AI">
+        <rect width="360" height="170" fill="#eaf2f4"/><path d="M0 124h360v46H0z" fill="#d4c7b1"/><path d="M29 123V92a42 42 0 0 1 84 0v31" fill="#fff" stroke="#426273" stroke-width="5"/><rect x="143" y="28" width="83" height="55" rx="4" fill="#fff" stroke="#567687" stroke-width="2"/><path d="M153 40h63m-63 12h48m-48 12h56" stroke="#0e8a91" stroke-width="2"/><text x="157" y="99">VR / MR model</text>
+        <path d="M114 72h26m-8-7 8 7-8 7m86 0h27m-8-7 8 7-8 7" fill="none" stroke="#e79a3d" stroke-width="2.5"/>
+        <path d="M264 119h64m-50 0V94h36v25m-32-25 14-18 13 18" fill="none" stroke="#315e70" stroke-width="4"/><circle cx="282" cy="132" r="6" fill="#0e8a91"/><circle cx="314" cy="132" r="6" fill="#0e8a91"/><path d="M282 138v13m32-13v13m-32-7h32" stroke="#315e70" stroke-width="3"/><text x="265" y="161">Embodied AI</text>
+      </svg></div>
+      <div class="topic-copy"><h4>VR/MR and embodied AI</h4><p>Immersive and robotic intelligence for geotechnical work.</p></div>
+    </article></div>
   </div>
 </section>
 
 <section class="research-theme" aria-labelledby="theme-thermo">
-  <div class="research-theme-heading">
-    <span class="research-theme-number">02</span>
-    <h3 id="theme-thermo">Thermodynamics and Thermomechanical Analysis of Subsurface Energy Systems</h3>
-  </div>
+  <div class="research-theme-heading"><span class="research-theme-number">02</span><h3 id="theme-thermo">Thermodynamics and Thermomechanical Analysis of Subsurface Energy Systems</h3></div>
   <div class="row">
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eef4f3"/><path d="M0 125h360v45H0z" fill="#d8c9b0"/><path d="M132 45h97v76h-97z" fill="#f9fbfa" stroke="#345c6c" stroke-width="4"/><path d="M150 58h61v49h-61z" fill="#dbeaec" stroke="#0e8a91" stroke-width="2"/><path d="M150 72h61m-61 14h61m-61 14h61" stroke="#9baeb0" stroke-width="1.5"/><path d="M163 48v12m35-12v12m-35 47v14m35-14v14" stroke="#efa94e" stroke-width="3"/><use href="#geo-engineer" x="43" y="90" width="38" height="63"/><use href="#ai-network" x="277" y="18" width="65" height="50"/>
-          <path d="M108 74h18m-7-7 7 7-7 7m124 14h18m-7-7 7 7-7 7" fill="none" stroke="#e58b39" stroke-width="2"/><circle cx="281" cy="102" r="4" fill="#0e8a91"/><circle cx="299" cy="112" r="3" fill="#0e8a91"/><circle cx="316" cy="101" r="4" fill="#0e8a91"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Thermo-hydro-mechanical modelling of geomaterials</h4><p>Coupled heat, water flow, and ground response.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eaf3f4"/><path d="M0 128h360v42H0z" fill="#d7cbb6"/><path d="M143 34h76v92h-76z" fill="#f8fbfa" stroke="#355c6c" stroke-width="4"/><path d="M132 34h98m-89 16h80m-67 0v64m54-64v64m-67-18h54" fill="none" stroke="#0e8a91" stroke-width="3"/><path d="M153 56h56v47h-56z" fill="#d6e8e8" stroke="#efa94e" stroke-width="2"/><path d="M164 60v39m12-39v39m12-39v39m12-39v39" stroke="#64818c" stroke-width="2"/><use href="#geo-engineer" x="46" y="92" width="37" height="61"/><use href="#ai-network" x="278" y="18" width="64" height="50"/>
-          <path d="M255 94h41m-35-8 8 8-8 8m35-8 8-8m-8 8 8 8" fill="none" stroke="#efa94e" stroke-width="2"/><circle cx="303" cy="117" r="8" fill="none" stroke="#0e8a91" stroke-width="2"/><path d="M303 109v16m-7-8h14" stroke="#0e8a91" stroke-width="1.5"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Advanced laboratory testing</h4><p>Instrumented experiments with data-driven interpretation.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eaf3f2"/><path d="M0 70h360v33H0z" fill="#cfc3aa"/><path d="M0 103h360v67H0z" fill="#b9c9b0"/><path d="M0 92h360M0 132h360" stroke="#f8fbfa" stroke-width="2"/><path d="M145 27v111m61-111v111" stroke="#355c6c" stroke-width="8"/><path d="M152 32c35 10-35 20 0 30s-35 20 0 30-35 20 0 30m46-90c-35 10 35 20 0 30s35 20 0 30 35 20 0 30" fill="none" stroke="#e99a42" stroke-width="3"/><use href="#geo-engineer" x="45" y="90" width="38" height="63"/><use href="#ai-network" x="278" y="16" width="64" height="50"/>
-          <path d="M126 45h-22m12-7-8 7 8 7m100-7h22m-12-7 8 7-8 7" fill="none" stroke="#0e8a91" stroke-width="2"/><circle cx="174" cy="51" r="4" fill="#efa94e"/><circle cx="174" cy="111" r="4" fill="#0e8a91"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Thermomechanical soil-structure behavior</h4><p>Energy piles, tunnels, and walls.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#edf4f1"/><path d="M0 107h360v63H0z" fill="#d5c9b3"/><path d="M0 135h360" stroke="#b3a78f" stroke-width="3"/><path d="M92 106V60h50v46m18 0V48h50v58m17 0V68h44v38" fill="#f8fbfa" stroke="#426474" stroke-width="3"/><path d="M117 106V91c0-22 38-22 38 0v54m30-97v68m49-48v48" fill="none" stroke="#0e8a91" stroke-width="4"/><path d="M135 139c-18 13-18 20 0 25m60-75c-18 13-18 20 0 25" fill="none" stroke="#efa94e" stroke-width="3"/><use href="#geo-engineer" x="34" y="89" width="38" height="63"/><use href="#ai-network" x="277" y="16" width="64" height="50"/>
-          <circle cx="285" cy="111" r="10" fill="none" stroke="#0e8a91" stroke-width="2"/><path d="M280 111l4 4 7-9" fill="none" stroke="#0e8a91" stroke-width="2"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Thermodynamic analysis of novel decarbonization infrastructure</h4><p>Subsurface systems for a lower-carbon built environment.</p></div>
-      </article>
-    </div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram of thermal, hydraulic, and mechanical processes coupled in geomaterials">
+        <rect width="360" height="170" fill="#eef4f3"/><rect x="118" y="42" width="124" height="86" rx="5" fill="#d9eeee" stroke="#315e70" stroke-width="3"/><path d="M132 62h96m-96 20h96m-96 20h96" stroke="#9caeaa" stroke-width="2"/><circle cx="158" cy="72" r="5" fill="#e79a3d"/><circle cx="197" cy="92" r="5" fill="#0e8a91"/><circle cx="218" cy="63" r="4" fill="#315e70"/>
+        <rect x="20" y="61" width="67" height="34" rx="5" fill="#fff" stroke="#e79a3d" stroke-width="2"/><text x="43" y="83">Heat</text><rect x="273" y="27" width="67" height="34" rx="5" fill="#fff" stroke="#0e8a91" stroke-width="2"/><text x="294" y="49">Water</text><rect x="273" y="104" width="67" height="34" rx="5" fill="#fff" stroke="#567687" stroke-width="2"/><text x="293" y="126">Stress</text>
+        <path d="M87 78h28m-8-7 8 7-8 7m127-35 33-10m-9-3 9 3-5 8m-28 72 33 11m-10 2 10-2-4-8" fill="none" stroke="#567687" stroke-width="2"/><text x="127" y="151">Coupled ground response</text>
+      </svg></div>
+      <div class="topic-copy"><h4>Thermo-hydro-mechanical modelling of geomaterials</h4><p>Coupled heat, water flow, and ground response.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram of an instrumented geotechnical laboratory test feeding data into a model">
+        <rect width="360" height="170" fill="#eaf3f4"/><rect x="39" y="22" width="142" height="118" rx="4" fill="#fff" stroke="#315e70" stroke-width="3"/><path d="M54 38h112m-100 0v91m87-91v91m-99-9h112" fill="none" stroke="#0e8a91" stroke-width="3"/><rect x="79" y="55" width="62" height="55" fill="#d9eeee" stroke="#567687" stroke-width="2"/><path d="M92 58v49m12-49v49m12-49v49m12-49v49" stroke="#e79a3d" stroke-width="2"/><circle cx="151" cy="66" r="4" fill="#e79a3d"/><circle cx="151" cy="97" r="4" fill="#0e8a91"/><text x="70" y="157">Lab test + sensors</text>
+        <path d="M181 80h34m-9-7 9 7-9 7" fill="none" stroke="#e79a3d" stroke-width="2.5"/><rect x="221" y="40" width="116" height="82" rx="5" fill="#fff" stroke="#567687" stroke-width="2"/><path d="M237 101l20-22 18 10 19-28 26 15" fill="none" stroke="#0e8a91" stroke-width="3"/><path d="M237 109h82m-82-9h82" stroke="#c5d3d5"/><text x="243" y="58">Measured response</text><text x="247" y="139">Model calibration</text>
+      </svg></div>
+      <div class="topic-copy"><h4>Advanced laboratory testing</h4><p>Instrumented experiments with data-driven interpretation.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram of heat exchange and soil response around an energy pile">
+        <rect width="360" height="170" fill="#eaf3f2"/><path d="M0 60h360v38H0z" fill="#d0c4aa"/><path d="M0 98h360v72H0z" fill="#b9c9b0"/><path d="M0 84h360M0 128h360" stroke="#fff" stroke-width="2"/><path d="M159 24v122m44-122v122" stroke="#315e70" stroke-width="8"/><path d="M166 29c27 11-27 21 0 32s-27 21 0 32-27 21 0 32m30-96c-27 11 27 21 0 32s27 21 0 32-27 21 0 32" fill="none" stroke="#e79a3d" stroke-width="3"/>
+        <path d="M125 54h-36m11-8-11 8 11 8m129-8h36m-11-8 11 8-11 8" fill="none" stroke="#0e8a91" stroke-width="2.5"/><text x="25" y="42">Heat exchange</text><text x="239" y="42">Soil response</text><circle cx="142" cy="72" r="4" fill="#0e8a91"/><circle cx="221" cy="116" r="4" fill="#e79a3d"/><text x="137" y="160">Energy pile</text>
+      </svg></div>
+      <div class="topic-copy"><h4>Thermomechanical soil-structure behavior</h4><p>Energy piles, tunnels, and walls.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept diagram of subsurface energy infrastructure connected to lower-carbon energy sources">
+        <rect width="360" height="170" fill="#edf4f1"/><path d="M0 78h360v92H0z" fill="#d5c9b3"/><path d="M0 104h360M0 137h360" stroke="#b3a78f" stroke-width="2"/><path d="M29 77V45h42v32m-31-32V29m20 16V23m-9 54V64c0-22 38-22 38 0v61" fill="none" stroke="#315e70" stroke-width="3"/><path d="M135 78V46h45v32m-34-32V27m21 19V20m-10 58v52" fill="none" stroke="#0e8a91" stroke-width="3"/><path d="M94 61h31m-9-7 9 7-9 7m55 48h66m-9-7 9 7-9 7" fill="none" stroke="#e79a3d" stroke-width="2.5"/><rect x="249" y="72" width="84" height="63" rx="4" fill="#fff" stroke="#567687" stroke-width="2"/><path d="M263 119l14-17 12 9 14-22 16 11" fill="none" stroke="#0e8a91" stroke-width="3"/><text x="23" y="153">Geoenergy</text><text x="131" y="153">Thermal storage</text><text x="260" y="62">Lower emissions</text>
+      </svg></div>
+      <div class="topic-copy"><h4>Thermodynamic analysis of novel decarbonization infrastructure</h4><p>Subsurface systems for a lower-carbon built environment.</p></div>
+    </article></div>
   </div>
 </section>
 
 <section class="research-theme" aria-labelledby="theme-soil">
-  <div class="research-theme-heading">
-    <span class="research-theme-number">03</span>
-    <h3 id="theme-soil">Soil-Structure Interaction</h3>
-  </div>
+  <div class="research-theme-heading"><span class="research-theme-number">03</span><h3 id="theme-soil">Soil-Structure Interaction</h3></div>
   <div class="row">
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eef3f1"/><path d="M0 65h360v105H0z" fill="#d1c3aa"/><path d="M0 87h360M0 112h360M0 140h360" stroke="#b19f81" stroke-width="2"/><path d="M105 128V96a68 68 0 0 1 136 0v32" fill="#f8fbfa" stroke="#355b6a" stroke-width="8"/><path d="M120 128V97a53 53 0 0 1 106 0v31" fill="none" stroke="#0e8a91" stroke-width="2" stroke-dasharray="5 4"/><path d="M264 62l66 29-20 43-59-22" fill="#c3d0bb" stroke="#55746e" stroke-width="3"/><path d="M252 84c16 10 31 16 58 20m-49-33c13 7 27 12 47 16" fill="none" stroke="#0e8a91" stroke-width="2"/><use href="#geo-engineer" x="42" y="97" width="37" height="61"/><use href="#ai-network" x="277" y="15" width="64" height="50"/>
-          <circle cx="160" cy="95" r="4" fill="#efa94e"/><circle cx="190" cy="95" r="4" fill="#efa94e"/><path d="M160 95l-10-13m40 13 10-13" stroke="#efa94e" stroke-width="2"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Tunnels, excavations, and slope stability</h4><p>Ground response and infrastructure performance.</p></div>
-      </article>
-    </div>
-    <div class="col-12 col-md-6 mb-4">
-      <article class="research-topic-card">
-        <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" aria-hidden="true">
-          <rect width="360" height="170" fill="#eaf3f2"/><path d="M0 110h360v60H0z" fill="#d5c8ae"/><path d="M0 132h360M0 151h360" stroke="#b3a388" stroke-width="2"/><path d="M177 61h147v50H177z" fill="#bdd0c5"/><path d="M177 70h147m-147 15h147m-147 15h147" stroke="#f8fbfa" stroke-width="2"/><path d="M177 57v58m147-58v58" stroke="#355c6c" stroke-width="4"/><path d="M178 58l-15-23m40 23-8-30m42 30 0-28m41 28 8-30" stroke="#0e8a91" stroke-width="3"/><path d="M0 104c20-12 34-12 52 0s32 12 50 0 32-12 50 0" fill="none" stroke="#4f9bac" stroke-width="4"/><path d="M0 91c20-12 34-12 52 0s32 12 50 0 32-12 50 0" fill="none" stroke="#80bcc4" stroke-width="3"/><use href="#geo-engineer" x="64" y="91" width="37" height="61"/><use href="#ai-network" x="279" y="14" width="64" height="50"/>
-          <path d="M196 47c20-13 40-13 61 0m-52-7c14-9 28-9 42 0" fill="none" stroke="#efa94e" stroke-width="2" stroke-dasharray="3 3"/>
-        </svg></div>
-        <div class="topic-copy"><h4>Land reclamation and coastal defense</h4><p>Ground improvement and resilient coastal infrastructure.</p></div>
-      </article>
-    </div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept figure comparing tunnel, excavation, and slope stability problems">
+        <rect width="360" height="170" fill="#eef3f1"/><path d="M0 61h360v109H0z" fill="#d1c3aa"/><path d="M0 88h360M0 117h360M0 145h360" stroke="#b19f81" stroke-width="2"/>
+        <path d="M21 123V96a34 34 0 0 1 68 0v27" fill="#f8fbfa" stroke="#315e70" stroke-width="5"/><text x="28" y="151">Tunnel</text><circle cx="55" cy="92" r="3" fill="#e79a3d"/>
+        <path d="M130 124V77h72v47" fill="#f8fbfa" stroke="#567687" stroke-width="4"/><path d="M139 84h54m-46 12h46m-46 12h46" stroke="#0e8a91" stroke-width="2"/><text x="137" y="151">Excavation</text>
+        <path d="M245 125l35-54 57 54" fill="#c3d0bb" stroke="#55746e" stroke-width="3"/><path d="M260 112c20-12 37-16 58-12m-48 20c17-8 30-10 44-7" fill="none" stroke="#0e8a91" stroke-width="2"/><text x="271" y="151">Slope</text><path d="M244 58h95" stroke="#e79a3d" stroke-width="2" stroke-dasharray="4 4"/>
+      </svg></div>
+      <div class="topic-copy"><h4>Tunnels, excavations, and slope stability</h4><p>Ground response and infrastructure performance.</p></div>
+    </article></div>
+    <div class="col-12 col-md-6 mb-4"><article class="research-topic-card">
+      <div class="topic-visual"><svg class="topic-art" viewBox="0 0 360 170" role="img" aria-label="Concept figure of reclaimed ground, ground improvement, and coastal defense under wave loading">
+        <rect width="360" height="170" fill="#eaf3f2"/><path d="M0 51h360v119H0z" fill="#d5c8ae"/><path d="M0 91h360M0 126h360M0 151h360" stroke="#b3a388" stroke-width="2"/>
+        <path d="M0 76c18-12 31-12 49 0s31 12 49 0 31-12 49 0" fill="none" stroke="#4f9bac" stroke-width="4"/><path d="M0 61c18-12 31-12 49 0s31 12 49 0 31-12 49 0" fill="none" stroke="#80bcc4" stroke-width="3"/>
+        <path d="M139 57h119v36H139z" fill="#c3d0bb" stroke="#55746e" stroke-width="2"/><path d="M150 93v54m30-54v54m30-54v54m30-54v54" stroke="#0e8a91" stroke-width="3"/><text x="153" y="78">Reclaimed ground</text>
+        <path d="M276 101l28-38 28 38v47h-56z" fill="#f8fbfa" stroke="#315e70" stroke-width="4"/><path d="M282 112h44m-44 12h44m-44 12h44" stroke="#0e8a91" stroke-width="2"/><path d="M270 54h69" stroke="#e79a3d" stroke-width="2" stroke-dasharray="4 4"/><text x="283" y="157">Coastal defense</text>
+      </svg></div>
+      <div class="topic-copy"><h4>Land reclamation and coastal defense</h4><p>Ground improvement and resilient coastal infrastructure.</p></div>
+    </article></div>
   </div>
 </section>
